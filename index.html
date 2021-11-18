@@ -16,6 +16,9 @@
   <script defer src="./js/main.js"></script>
   <link rel="stylesheet" href="./css/main.css"/>
 </head>
+
+
+
 <body>
 
   <!-- header -->
@@ -34,7 +37,7 @@
             <div class="contents__menu">
               <ul class="inner">
                 <li>
-                  <a href="" style="color:black;">분류 4개로 시작</a>
+                  <a href="./favor.html" style="color:black;">취향 분석하기</a>
                   <ul>
                     <li>선택장애 소짜 !</li>
                     <li>소소 ~</li>
@@ -72,36 +75,6 @@
             </div>
           </div>
         </li>
-        <!-- <li class="item">
-          <div class="item__name">메뉴 월드컵</div>
-          <div class="item__contents">
-            <div class="contents__menu">
-              <ul class="inner">
-                <li>
-                  <h4>분류 4개로 시작</h4>
-                  <ul>
-                    <li>선택장애 소짜 !</li>
-                    <li>소소 ~</li>
-                  </ul>
-                </li>
-                <li>
-                  <h4>분류 8개로 시작</h4>
-                  <ul>
-                    <li>선택장애 중짜 !</li>
-                    <li>중중 ~</li>
-                  </ul>
-                </li>
-                <li>
-                  <h4>분류 16개로 시작</h4>
-                  <ul>
-                    <li>선택장애 대짜 !</li>
-                    <li>대대 ~</li>
-                  </ul>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </li> -->
       </ul>
     </div>
     
@@ -109,16 +82,20 @@
       <div class="inner">
     
         <div class="title fade-in">
-          <img src="./images/ENJOY~.png" alt="STARBUCKS DELIGHTFUL START TO THE YEARS" />
-          <a href="./favor.html" class="btn btn--brown">취향 분석 하기</a>
+          <img src="./images/ENJOY~.png" alt="ENJOY YOUR LUNCH WITH OUR SITE" />
+          <div onclick="move()" class="btn btn--brown">취향 분석하기</div>
+            <script>
+              function move() {
+                window.location.href("./favor.html");
+              }
+            </script>
+          
         </div>
         <div class="fade-in">
-          <img src="./images/girl.png" alt="new oatmill latte" class="cup1 image" />
-          <!-- <img src="./images/visual_cup1_text.png" alt="오트밀 라떼" class="cup1 text" /> -->
+          <img src="./images/girl.png" alt="girl" class="cup1 image" />
         </div>
         <div class="fade-in">
-          <img src="./images/boy.png" alt="new starbucks caramel crumble mocha" class="cup2 image" />
-          <!-- <img src="./images/visual_cup2_text.png" alt="스타벅스 카라멜 크럼블 모카" class="cup2 text" /> -->
+          <img src="./images/boy.png" alt="boy" class="cup2 image" />
         </div>
       </div>
     </section>
