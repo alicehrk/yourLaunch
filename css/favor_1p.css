@@ -58,13 +58,23 @@ header .main-menu .item .item__name {
   display: flex;
 }
 
-.main-container .first-container img {
-  width: 50vw;
-  padding: 10px;
-  /* position: absolute; */
+.main-container .first-container img{
+  width: 600px;
+  height: 600px;
+  position: absolute;
+  left: 15%;
+  top: 0;
+  bottom: 0;
+  margin: auto;
 }
 
-.main-container .second-container img {
-  width: 50vw;
-  /* position: absolute; */
+
+.main-container .second-container img{
+  width: 600px;
+  height: 600px;
+  position: absolute;
+  right: 15%;
+  top: 0;
+  bottom: 0;
+  margin: auto;
 }

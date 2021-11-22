@@ -19,9 +19,7 @@ a{
   font-size: 16px;
   cursor: pointer;
 }
-/* a:hover {
-  color: #FFF;
-} */
+
 
 
 .inner {
@@ -197,10 +195,7 @@ header .main-menu .item .item__contents .contents__menu >ul >li ul li {
 .visual .inner {
   height: 646px;
 }
-.visual .title {
-  
-  
-}
+
 .visual .title img {
   position: absolute;
   max-width: 80%;
@@ -219,18 +214,21 @@ header .main-menu .item .item__contents .contents__menu >ul >li ul li {
   left: 173px;
 }
 
-.visual .cup1.image {
+.visual .girl.image {
   position: absolute;
   max-width: 80%;
   bottom: 0;
   right: -300px;
 }
 
-.visual .cup2.image {
+.visual .boy.image {
   position: absolute;
   bottom: 0px;
   max-width: 80%;
   right: -10px;
+}
+.visual .fade-in {
+  opacity: 0;
 }
 
 
