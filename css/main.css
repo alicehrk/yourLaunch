@@ -15,7 +15,6 @@ a{
   display: block;
   padding-bottom: 10px;
   text-decoration: none;
-  color: #333;
   font-size: 16px;
   cursor: pointer;
 }
@@ -62,22 +61,6 @@ a{
 .btn.btn--brown:hover {
   color: #fff;
   background-color: #592b18;
-}
-.btn.btn--gold {
-  color: #D9AA8A;
-  border-color: #D9AA8A;
-}
-.btn.btn--gold:hover {
-  color: #fff;
-  background-color: #D9AA8A;
-}
-.btn.btn--white {
-  color: #fff;
-  border-color: #fff;
-}
-.btn.btn--white:hover {
-  color: #333;
-  background-color: #fff;
 }
 
 .back-to-position {
@@ -161,7 +144,8 @@ header .main-menu .item:hover .item__contents {
 }
 
 header .main-menu .item .item__contents .contents__menu {
-  background-color: #a5a5a5;
+  background-color: #614032;
+  opacity: .9;
 }
 header .main-menu .item .item__contents .contents__menu >ul{
   display: flex;
@@ -196,14 +180,15 @@ header .main-menu .item .item__contents .contents__menu >ul >li ul li {
   height: 646px;
 }
 
-.visual .title img {
+/* title : ENJOY~ */
+/* .visual .title img {
   position: absolute;
   max-width: 80%;
   bottom: 250px;
   left: -198px;
-}
+} */
 
-.visual .title .btn1 {
+/* .visual .title .btn1 {
   position: absolute;
   top: 259px;
   left: 173px;
@@ -212,7 +197,29 @@ header .main-menu .item .item__contents .contents__menu >ul >li ul li {
   position: absolute;
   top: 320px;
   left: 173px;
+} */
+
+/* title : ENJOY~3 */
+.visual .title img {
+  position: absolute;
+  max-width: 420px;
+  bottom: 270px;
+  left: 25px;
 }
+.visual .title .btn1 {
+  position: absolute;
+  top: 310px;
+  left: 173px;
+}
+.visual .title .btn2 {
+  position: absolute;
+  top: 370px;
+  left: 173px;
+}
+
+
+
+
 
 .visual .girl.image {
   position: absolute;
