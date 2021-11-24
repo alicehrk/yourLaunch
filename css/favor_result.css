@@ -72,15 +72,15 @@ header .main-menu .item .item__name {
   border-bottom: 5px solid #614032;
 }
 
-.main-container .option-container {
+.main-container .map-container {
   display: flex;
 }
 
-.main-container .option-container .first-container img{
+.main-container .map-container .first-container img{
   width: 600px;
   height: 600px;
 }
-.main-container .option-container .first-container img:hover{
+.main-container .map-container .first-container img:hover{
   width: 600px;
   height: 600px;
   background-color: #f6f5f0;
@@ -90,16 +90,16 @@ header .main-menu .item .item__name {
   transition: 2;
 }
 
-.main-container .option-container .blank {
+.main-container .map-container .blank {
   width: 20px;
 }
 
 
-.main-container .option-container .second-container img{
+.main-container .map-container .second-container img{
   width: 600px;
   height: 600px;
 }
-.main-container .option-container .second-container img:hover{
+.main-container .map-container .second-container img:hover{
   width: 600px;
   height: 600px;
   background-color: #f6f5f0;
