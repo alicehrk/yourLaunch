@@ -10,7 +10,6 @@ img {
   display: block;
 }
 
-
 a{
   display: block;
   padding-bottom: 10px;
@@ -18,7 +17,6 @@ a{
   font-size: 16px;
   cursor: pointer;
 }
-
 
 
 .inner {
@@ -180,24 +178,6 @@ header .main-menu .item .item__contents .contents__menu >ul >li ul li {
   height: 646px;
 }
 
-/* title : ENJOY~ */
-/* .visual .title img {
-  position: absolute;
-  max-width: 80%;
-  bottom: 250px;
-  left: -198px;
-} */
-
-/* .visual .title .btn1 {
-  position: absolute;
-  top: 259px;
-  left: 173px;
-}
-.visual .title .btn2 {
-  position: absolute;
-  top: 320px;
-  left: 173px;
-} */
 
 /* title : ENJOY~3 */
 .visual .title img {
@@ -216,8 +196,6 @@ header .main-menu .item .item__contents .contents__menu >ul >li ul li {
   top: 370px;
   left: 173px;
 }
-
-
 
 
 
