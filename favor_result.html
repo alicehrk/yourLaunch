@@ -2,20 +2,20 @@
 <html lang="ko">
 
 <head>
-  <meta charset="UTF-8"/>
-  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Your Lunch</title>
-  
-  <link rel="icon" href="./favicon.png"/>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css"/>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"/>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Your Lunch</title>
 
-  <script defer src="./js/favor.js"></script>
-  <link rel="stylesheet" href="./css/favor_result.css"/>
+    <link rel="icon" href="./favicon.png" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+
+    <script defer src="./js/favor.js"></script>
+    <link rel="stylesheet" href="./css/favor_result.css" />
 </head>
 
 <body>
@@ -37,23 +37,129 @@
         <div class="title-container">
             <h3>추천해줄 식당은!</h3>
         </div>
-        
-        <div class="map-container">
-            <a href="/" class="first-container" onclick="local()">
-                <img src="./images/with_soju.png" />
-            </a>
-            <div class="blank"></div>
-            <a href="/" class="second-container">
-                <img src="./images/without_soju.png" />
-            </a>
+        <div id="restaurantname" class="title-container">
+            <h3></h3>
         </div>
+
+        <div class="map-container">
+            <div id="naverMap"
+                style="margin:0 auto; width: 750px; max-width:100%; height: 550px; background-color: beige; border: 10px"
+                class="map"></div>
+        </div>
+        <a href="./index.html" class="btn btn1 btn--brown">메인 메뉴로</a>
+        <form> <a class="btn btn1 btn--brown" href="">다른 맛집?</a></form>
+        <script src="https://openapi.map.naver.com/openapi/v3/maps.js?ncpClientId=23esz6pool"></script>
+        <script type="text/javascript"
+            src="https://openapi.map.naver.com/openapi/v3/maps.js?clientId=23esz6pool&submodules=geocoder"></script>
 
     </main>
 </body>
+
 </html>
 
 <script>
-    function local() {
-        localStorage.setItem('dd','dd');
+    var requestURL = 'https://raw.githubusercontent.com/nick102030/JS/main/front.json';
+    var request = new XMLHttpRequest();
+    var maxScore = 0; //json score 중 가장 큰 점수
+    var meetCondition = []; //가장 큰 점수를 가진 식당들을 저장할 배열
+    var indexHighestScore; //점수가 가장 높은 최종 식당의 index
+    var Finaladdress;
+
+    request.open('GET', requestURL);
+    request.responseType = 'json';
+    request.send();
+
+    request.onload = function () {
+        var matzip = request.response;
+
+
+        /* localStorage와 비교해 조건에 맞는 식당만 array에 추가.*/
+        for (var i = 0; i < matzip['members'].length; i++) {
+            if ((matzip['members'][i]['door'] == localStorage.getItem("door"))
+                &&
+                (matzip['members'][i]['lightly'] == localStorage.getItem("lightly"))
+                &&
+                (matzip['members'][i]['alcohol'] == localStorage.getItem("alcohol"))
+                &&
+                (matzip['members'][i]['soup'] == localStorage.getItem("soup"))
+                &&
+                (matzip['members'][i]['spicy'] == localStorage.getItem("spicy"))) {
+                meetCondition.push(i);
+            }
+        }
+
+        console.log(meetCondition);
+
+        if (meetCondition.length == 1) {
+            indexHighestScore = meetCondition[0];
+        } else {
+            indexHighestScore = meetCondition[Math.ceil(Math.random() * meetCondition.length) - 1];
+        }
+
+
+
+        var FinalAddress = matzip['members'][indexHighestScore]['address'];
+
+
+        console.log(matzip['members'][indexHighestScore]['name'], matzip['members'][indexHighestScore]['score'], indexHighestScore);
+
+        naver
+            .maps
+            .Service
+            .geocode({
+                address: FinalAddress
+            }, function (status, response) {
+                if (status !== naver.maps.Service.Status.OK) {
+                    return alert('Something wrong!');
+                }
+
+                var resultGeocoding = response.result;
+
+                var map = new naver
+                    .maps
+                    .Map('naverMap', {
+
+                        center: new naver
+                            .maps
+                            .LatLng(
+                                resultGeocoding['items'][0]['point']['y'],
+                                resultGeocoding['items'][0]['point']['x']
+                            ),
+
+                        zoom: 16,
+
+                        zoomControl: false,
+
+                        zoomControlOptions: {
+                            position: naver.maps.Position.TOP_RIGHT // 오른쪽 위로 설정
+                        },
+
+                        mapTypeControl: false
+                    });
+
+                var marker = new naver
+                    .maps
+                    .Marker({
+                        map: map,
+                        position: new naver
+                            .maps
+                            .LatLng(
+                                resultGeocoding['items'][0]['point']['y'],
+                                resultGeocoding['items'][0]['point']['x']
+                            )
+                    });
+
+            });
+
+
+
+        const restaurantName = document.querySelector("#restaurantname");
+
+        restaurantName.innerText = matzip['members'][indexHighestScore]['name'];
+
+
+        localStorage.setItem("num", 1);
+
+
     }
 </script>

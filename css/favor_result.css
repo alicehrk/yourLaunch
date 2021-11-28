@@ -54,7 +54,7 @@ header .main-menu .item .item__name {
 .main-container {
   height: 100vh;
   background-color: #c0b2ac;
-  padding: 2rem;
+  padding: 1rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -66,8 +66,8 @@ header .main-menu .item .item__name {
 .main-container .title-container {
   font-size: 60px;
   font-family: 'Jua', sans-serif;
-  margin-top: 20px;
-  margin-bottom: 45px;
+  margin-top: 5px;
+  margin-bottom: 10px;
   padding-bottom: 2px;
   border-bottom: 5px solid #614032;
 }
@@ -106,4 +106,50 @@ header .main-menu .item .item__name {
   box-sizing: border-box;
   border: 7px inset #614032 ;
   border-radius: 20px;
+}
+
+.main-container .map-container .map{
+  box-sizing: content-box;
+  border: 1px inset black ;
+  border-radius: 20px;
+}
+
+.btn{
+  width: 130px;
+  margin-top: 10px;
+  padding: 10px;
+  border: 2px solid #333;
+  border-radius: 4px;
+  color: #333;
+  font-size: 16px;
+  font-weight: 700;
+  text-align: center;
+  cursor: pointer;
+  box-sizing: border-box;
+  display: block;
+  transition: .4s;
+  z-index: 10;
+}
+
+.btn.btn--brown {
+  color: #592b18;
+  border-color: #592b18;
+}
+
+.btn.btn--brown:hover{
+  color: #fff;
+  background-color: #592b18;
+}
+
+.btn:hover {
+  color: #fff;
+  background-color: #333;
+}
+.btn.btn--reverse {
+  background-color: #333;
+  color: #fff;
+}
+.btn.btn--reverse:hover {
+  background-color: transparent;
+  color: #333;
 }
