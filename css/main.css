@@ -100,7 +100,7 @@ header {
   z-index: 9;
 }
 header > .inner {
-  height: 120px;
+  height: 140px;
 }
 header .main-logo {
   height: 100px;
@@ -196,7 +196,6 @@ header .main-menu .item .item__contents .contents__menu >ul >li ul li {
   top: 370px;
   left: 173px;
 }
-
 
 
 .visual .girl.image {
