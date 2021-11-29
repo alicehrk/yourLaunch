@@ -35,9 +35,9 @@
     <main class="main-container">
 
         <div class="title-container">
-            <h3>추천해줄 식당은!</h3>
+            <h3>추천해줄 식당은! </h3>
         </div>
-        <div id="restaurantname" class="title-container">
+        <div id="restaurantname" class="restaurant-container">
             <h3></h3>
         </div>
 
@@ -46,8 +46,11 @@
                 style="margin:0 auto; width: 750px; max-width:100%; height: 550px; background-color: beige; border: 10px"
                 class="map"></div>
         </div>
-        <a href="./index.html" class="btn btn1 btn--brown">메인 메뉴로</a>
-        <form> <a class="btn btn1 btn--brown" href="">다른 맛집?</a></form>
+        <div class="btn-container">
+            <a href="./index.html" class="btn btn1 btn--brown">메인 메뉴로</a>
+            <div class="blank-container"></div>
+            <form> <a class="btn btn1 btn--brown" href="">다른 맛집?</a></form>
+        </div>
         <script src="https://openapi.map.naver.com/openapi/v3/maps.js?ncpClientId=23esz6pool"></script>
         <script type="text/javascript"
             src="https://openapi.map.naver.com/openapi/v3/maps.js?clientId=23esz6pool&submodules=geocoder"></script>
@@ -93,7 +96,7 @@
         if (meetCondition.length == 1) {
             indexHighestScore = meetCondition[0];
         } else {
-            indexHighestScore = meetCondition[Math.ceil(Math.random() * meetCondition.length) - 1];
+            indexHighestScore = meetCondition[Math.floor(Math.random() * meetCondition.length)];
         }
 
 

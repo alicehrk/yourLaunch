@@ -2,20 +2,20 @@
 <html lang="ko">
 
 <head>
-  <meta charset="UTF-8"/>
-  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Your Lunch</title>
-  
-  <link rel="icon" href="./favicon.png"/>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css"/>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"/>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Your Lunch</title>
 
-  <script defer src="./js/favor.js"></script>
-  <link rel="stylesheet" href="./css/favor.css"/>
+    <link rel="icon" href="./favicon.png" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="crossorigin">
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+
+    <script defer="defer" src="./js/favor.js"></script>
+    <link rel="stylesheet" href="./css/favor.css" />
 </head>
 
 <body>
@@ -37,23 +37,33 @@
         <div class="title-container">
             <h3>Q3. 오늘 분위기는!</h3>
         </div>
-        
+
         <div class="option-container">
-            <a href="./favor_4p.html" class="first-container" onclick="local()">
+            <a href="./favor_4p.html" id="firstBtn" class="first-container">
                 <img src="./images/with_soju.png" />
             </a>
             <div class="blank"></div>
-            <a href="./favor_4p.html" class="second-container">
+            <a href="./favor_4p.html" id="secondBtn" class="second-container">
                 <img src="./images/without_soju.png" />
             </a>
         </div>
 
     </main>
 </body>
+
 </html>
 
 <script>
-    function local() {
-        localStorage.setItem('dd','dd');
+    const question3Button1 = document.querySelector("#firstBtn");
+    const question3Button2 = document.querySelector("#secondBtn");
+
+    question3Button1.addEventListener("click", handleClickFirstButton);
+    question3Button2.addEventListener("click", handleClickSecondbutton);
+
+    function handleClickFirstButton() {
+        localStorage.setItem("alcohol", "yes");
+    }
+    function handleClickSecondbutton() {
+        localStorage.setItem("alcohol", "no");
     }
 </script>
