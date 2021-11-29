@@ -7,6 +7,9 @@ body {
   margin: 0 auto;
   position: relative;
 }
+a {
+  text-decoration-line: none;
+}
 
 /* header */
 header {
