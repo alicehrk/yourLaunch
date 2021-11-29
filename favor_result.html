@@ -8,7 +8,7 @@
     <title>Your Lunch</title>
 
     <link rel="icon" href="./favicon.png" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;800&display=swap" rel="stylesheet">
@@ -35,7 +35,7 @@
     <main class="main-container">
 
         <div class="title-container">
-            <h3>추천해줄 식당은! </h3>
+            <h3>추천해줄 식당은!</h3>
         </div>
         <div id="restaurantname" class="restaurant-container">
             <h3></h3>
@@ -91,12 +91,23 @@
             }
         }
 
+
+        /* 시간 조건 만족하는 경우만 배열에 저장 */
+        if (localStorage.getItem("time") == "near") {
+            for (var i = 0; i < meetCondition.length; i++) {
+                if (matzip['members'][meetCondition[i]]['time'] > 14) {
+                    meetCondition.splice(i, 1);
+                }
+            }
+        }
+
+
         console.log(meetCondition);
 
         if (meetCondition.length == 1) {
             indexHighestScore = meetCondition[0];
         } else {
-            indexHighestScore = meetCondition[Math.floor(Math.random() * meetCondition.length)];
+            indexHighestScore = meetCondition[Math.ceil(Math.random() * meetCondition.length) - 1];
         }
 
 
@@ -104,7 +115,7 @@
         var FinalAddress = matzip['members'][indexHighestScore]['address'];
 
 
-        console.log(matzip['members'][indexHighestScore]['name'], matzip['members'][indexHighestScore]['score'], indexHighestScore);
+        console.log(matzip['members'][indexHighestScore]['name'], indexHighestScore);
 
         naver
             .maps
