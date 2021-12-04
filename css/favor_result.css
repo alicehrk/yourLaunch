@@ -53,7 +53,6 @@ header .main-menu .item .item__name {
   font-size: 1rem;
 }
 
-
 .main-container {
   height: 100vh;
   background-color: #c0b2ac;
@@ -64,10 +63,9 @@ header .main-menu .item .item__name {
   align-items: center;
 }
 
-
 .main-container .title-container {
   font-size: 50px;
-  font-family: 'Jua', sans-serif;
+  font-family: "Jua", sans-serif;
   margin-top: 100px;
   margin-bottom: 10px;
   padding-bottom: 2px;
@@ -76,7 +74,7 @@ header .main-menu .item .item__name {
 
 .main-container .restaurant-container {
   font-size: 50px;
-  font-family: 'Jua', sans-serif;
+  font-family: "Jua", sans-serif;
   margin-top: 10px;
   margin-bottom: 10px;
   padding-bottom: 2px;
@@ -87,16 +85,16 @@ header .main-menu .item .item__name {
   display: flex;
 }
 
-.main-container .map-container .first-container img{
+.main-container .map-container .first-container img {
   width: 600px;
   height: 600px;
 }
-.main-container .map-container .first-container img:hover{
+.main-container .map-container .first-container img:hover {
   width: 600px;
   height: 600px;
   background-color: #f6f5f0;
   box-sizing: border-box;
-  border: 7px inset #614032 ;
+  border: 7px inset #614032;
   border-radius: 20px;
   transition: 2;
 }
@@ -105,23 +103,22 @@ header .main-menu .item .item__name {
   width: 20px;
 }
 
-
-.main-container .map-container .second-container img{
+.main-container .map-container .second-container img {
   width: 600px;
   height: 600px;
 }
-.main-container .map-container .second-container img:hover{
+.main-container .map-container .second-container img:hover {
   width: 600px;
   height: 600px;
   background-color: #f6f5f0;
   box-sizing: border-box;
-  border: 7px inset #614032 ;
+  border: 7px inset #614032;
   border-radius: 20px;
 }
 
-.main-container .map-container .map{
+.main-container .map-container .map {
   box-sizing: content-box;
-  border: 1px inset black ;
+  border: 1px inset black;
   border-radius: 20px;
 }
 
@@ -132,7 +129,7 @@ header .main-menu .item .item__name {
   width: 20px;
 }
 
-.btn{
+.btn {
   width: 130px;
   margin-top: 10px;
   padding: 10px;
@@ -145,7 +142,7 @@ header .main-menu .item .item__name {
   cursor: pointer;
   box-sizing: border-box;
   display: block;
-  transition: .4s;
+  transition: 0.4s;
   z-index: 10;
 }
 
@@ -154,7 +151,7 @@ header .main-menu .item .item__name {
   border-color: #592b18;
 }
 
-.btn.btn--brown:hover{
+.btn.btn--brown:hover {
   color: #fff;
   background-color: #592b18;
 }
@@ -170,4 +167,8 @@ header .main-menu .item .item__name {
 .btn.btn--reverse:hover {
   background-color: transparent;
   color: #333;
+}
+
+.hidden {
+  visibility: none;
 }

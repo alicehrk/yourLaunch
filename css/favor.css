@@ -50,7 +50,6 @@ header .main-menu .item .item__name {
   font-size: 1rem;
 }
 
-
 .main-container {
   height: 100vh;
   background-color: #c0b2ac;
@@ -61,11 +60,9 @@ header .main-menu .item .item__name {
   align-items: center;
 }
 
-
-
 .main-container .title-container {
   font-size: 60px;
-  font-family: 'Jua', sans-serif;
+  font-family: "Jua", sans-serif;
   margin-top: 80px;
   margin-bottom: 45px;
   padding-bottom: 2px;
@@ -76,16 +73,16 @@ header .main-menu .item .item__name {
   display: flex;
 }
 
-.main-container .option-container .first-container img{
+.main-container .option-container .first-container img {
   width: 600px;
   height: 600px;
 }
-.main-container .option-container .first-container img:hover{
+.main-container .option-container .first-container img:hover {
   width: 600px;
   height: 600px;
   background-color: #f6f5f0;
   box-sizing: border-box;
-  border: 7px inset #614032 ;
+  border: 7px inset #614032;
   border-radius: 20px;
   transition: 2;
 }
@@ -94,16 +91,19 @@ header .main-menu .item .item__name {
   width: 20px;
 }
 
-
-.main-container .option-container .second-container img{
+.main-container .option-container .second-container img {
   width: 600px;
   height: 600px;
 }
-.main-container .option-container .second-container img:hover{
+.main-container .option-container .second-container img:hover {
   width: 600px;
   height: 600px;
   background-color: #f6f5f0;
   box-sizing: border-box;
-  border: 7px inset #614032 ;
+  border: 7px inset #614032;
   border-radius: 20px;
+}
+
+.hidden {
+  display: none;
 }

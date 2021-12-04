@@ -1,0 +1,2600 @@
+{
+    "members": [
+        {
+            "name": "김치만선생",
+            "menu": [
+                "김치찌개",
+                "수제 떡갈비",
+                "계란말이",
+                "비빔칼국수"
+            ],
+            "door": "front",
+            "lightly": "yes",
+            "alcohol": "yes",
+            "soup": "yes",
+            "spicy": "yes",
+            "time": 4,
+            "address": "서울 동대문구 전농로 233",
+            "score": 0
+        },
+        {
+            "name": "그린하우스",
+            "menu": [
+                "부대찌개",
+                "된장찌개",
+                "김치찌개"
+            ],
+            "door": "front",
+            "lightly": "no",
+            "alcohol": "no",
+            "soup": "yes",
+            "spicy": "yes",
+            "time": 2,
+            "address": "서울 동대문구 전농로 219",
+            "score": 0
+        },
+        {
+            "name": "이판사판공사판",
+            "menu": [
+                "만두전골",
+                "김치찌개",
+                "부대찌개",
+                "계란말이"
+            ],
+            "door": "front",
+            "lightly": "no",
+            "alcohol": "yes",
+            "soup": "yes",
+            "spicy": "yes",
+            "time": 3,
+            "address": "서울 동대문구 전농로 225",
+            "score": 0
+        },
+        {
+            "name": "고향미중식당",
+            "menu": [
+                "마라탕",
+                "마라상궈",
+                "꿔바로우",
+                "마파두부"
+            ],
+            "door": "front",
+            "lightly": "yes",
+            "alcohol": "yes",
+            "soup": "yes",
+            "spicy": "yes",
+            "time": 10,
+            "address": "서울 동대문구 제기로37길 12",
+            "score": 0
+        },
+        {
+            "name": "마라성연",
+            "menu": [
+                "마라탕",
+                "마라룽샤",
+                "마파두부"
+            ],
+            "door": "front",
+            "lightly": "yes",
+            "alcohol": "yes",
+            "soup": "yes",
+            "spicy": "yes",
+            "time": 5,
+            "address": "서울 동대문구 전농로 217-3 1층",
+            "score": 0
+        },
+        {
+            "name": "최원석의돼지한판&서해쭈꾸미",
+            "menu": [
+                "삼겹살",
+                "주먹고기",
+                "쭈꾸미 철판볶음"
+            ],
+            "door": "front",
+            "lightly": "no",
+            "alcohol": "no",
+            "soup": "no",
+            "spicy": "no",
+            "time": 1,
+            "address": "서울 동대문구 전농로 222",
+            "score": 0
+        },
+        {
+            "name": "19고깃집",
+            "menu": [
+                "통삼겹살",
+                "통오겹살"
+            ],
+            "door": "front",
+            "lightly": "no",
+            "alcohol": "np",
+            "soup": "no",
+            "spicy": "no",
+            "time": 3,
+            "address": "서울 동대문구 전농로 227",
+            "score": 0
+        },
+        {
+            "name": "옛날집",
+            "menu": [
+                "초벌구이 통삼겹살",
+                "대패삼겹살",
+                "우삼겹",
+                "왕갈비"
+            ],
+            "door": "front",
+            "lightly": "no",
+            "alcohol": "no",
+            "soup": "no",
+            "spicy": "no",
+            "time": 5,
+            "address": "서울 동대문구 전농로 229 옛날집",
+            "score": 0
+        },
+        {
+            "name": "화성옥갈비생갈비",
+            "menu": [
+                "돼지갈비",
+                "소갈비",
+                "대패 삼겹살",
+                "삼겹살",
+                "생갈비",
+                "냉면"
+            ],
+            "door": "front",
+            "lightly": "no",
+            "alcohol": "no",
+            "soup": "no",
+            "spicy": "no",
+            "time": 15,
+            "address": "서울 동대문구 전농로14길 7",
+            "score": 0
+        },
+        {
+            "name": "손문대구막창갈매기살",
+            "menu": [
+                "삼겹살",
+                "갈매기살",
+                "소막창",
+                "대구막창",
+                "닭갈비"
+            ],
+            "door": "front",
+            "lightly": "no",
+            "alcohol": "no",
+            "soup": "no",
+            "spicy": "no",
+            "time": 5,
+            "address": "서울 동대문구 서울시립대로23길 2",
+            "score": 0
+        },
+        {
+            "name": "퐈이야",
+            "menu": [
+                "이베리코 꽃목살",
+                "삼겹살",
+                "항정살",
+                "우삼겹살",
+                "껍데기"
+            ],
+            "door": "front",
+            "lightly": "no",
+            "alcohol": "no",
+            "soup": "no",
+            "spicy": "no",
+            "time": 6,
+            "address": "서울 동대문구 왕산로 278 2층",
+            "score": 0
+        },
+        {
+            "name": "마루한",
+            "menu": [
+                "돼지갈비",
+                "LA갈비",
+                "삼겹살",
+                "육회"
+            ],
+            "door": "front",
+            "lightly": "no",
+            "alcohol": "no",
+            "soup": "no",
+            "spicy": "no",
+            "time": 4,
+            "address": "서울 동대문구 서울시립대로27길 3 대광빌딩 1층",
+            "score": 0
+        },
+        {
+            "name": "훈구생각",
+            "menu": [
+                "삼겹살"
+            ],
+            "door": "front",
+            "lightly": "no",
+            "alcohol": "no",
+            "soup": "no",
+            "spicy": "no",
+            "time": 3,
+            "address": "서울 동대문구 전농로 225",
+            "score": 0
+        },
+        {
+            "name": "장수회관",
+            "menu": [
+                "갈매기살",
+                "곱창전골",
+                "돌솥밥",
+                "삼겹살"
+            ],
+            "door": "front",
+            "lightly": "no",
+            "alcohol": "no",
+            "soup": "no",
+            "spicy": "no",
+            "time": 11,
+            "address": "서울 동대문구 전농로16길 16",
+            "score": 0
+        },
+        {
+            "name": "청정생고기",
+            "menu": [
+                "삼겹살",
+                "항정살",
+                "갈매기살",
+                "갈비살",
+                "등심"
+            ],
+            "door": "front",
+            "lightly": "no",
+            "alcohol": "no",
+            "soup": "no",
+            "spicy": "no",
+            "time": 6,
+            "address": "서울 동대문구 서울시립대로 121",
+            "score": 0
+        },
+        {
+            "name": "호수갈비",
+            "menu": [
+                "삼겹살",
+                "차돌박이",
+                "목살"
+            ],
+            "door": "front",
+            "lightly": "no",
+            "alcohol": "no",
+            "soup": "no",
+            "spicy": "no",
+            "time": 5,
+            "address": "서울 동대문구 서울시립대로27길 53",
+            "score": 0
+        },
+        {
+            "name": "갈비가 맛있는 집",
+            "menu": [
+                "돼지갈비",
+                "삼겹살",
+                "석쇠불고기",
+                "순두부찌개",
+                "김치찌개"
+            ],
+            "door": "front",
+            "lightly": "no",
+            "alcohol": "no",
+            "soup": "no",
+            "spicy": "no",
+            "time": 7,
+            "address": "서울 동대문구 왕산로 290",
+            "score": 0
+        },
+        {
+            "name": "신락원",
+            "menu": [
+                "자장면",
+                "짬뽕",
+                "탕수육",
+                "중새우요리"
+            ],
+            "door": "front",
+            "lightly": "yes",
+            "alcohol": "no",
+            "soup": "no",
+            "spicy": "no",
+            "time": 10,
+            "address": "서울 동대문구 전농로20길 2",
+            "score": 0
+        },
+        {
+            "name": "동해루",
+            "menu": [
+                "자장면",
+                "짬뽕",
+                "볶음밥",
+                "탕수육"
+            ],
+            "door": "front",
+            "lightly": "yes",
+            "alcohol": "no",
+            "soup": "no",
+            "spicy": "no",
+            "time": 5,
+            "address": "서울 동대문구 전농로 237 1층 권사부순대국 시립대점",
+            "score": 0
+        },
+        {
+            "name": "윤가네",
+            "menu": [
+                "김밥",
+                "찌개",
+                "덮밥"
+            ],
+            "door": "front",
+            "lightly": "yes",
+            "alcohol": "no",
+            "soup": "no",
+            "spicy": "no",
+            "time": 1,
+            "address": "서울 동대문구 서울시립대로29길 3",
+            "score": 0
+        },
+        {
+            "name": "마카나이",
+            "menu": [
+                "라멘",
+                "규동",
+                "차슈",
+                "카레",
+                "덮밥"
+            ],
+            "door": "front",
+            "lightly": "yes",
+            "alcohol": "no",
+            "soup": "no",
+            "spicy": "no",
+            "time": 7,
+            "address": "서울 동대문구 왕산로 272-1 1층 2",
+            "score": 0
+        },
+        {
+            "name": "라선생 돈까스",
+            "menu": [
+                "돈까스",
+                "새우볶음밥"
+            ],
+            "door": "front",
+            "lightly": "yes",
+            "alcohol": "no",
+            "soup": "no",
+            "spicy": "no",
+            "time": 7,
+            "address": "서울 동대문구 전농로 210-1",
+            "score": 0
+        },
+        {
+            "name": "꽃쌈",
+            "menu": [
+                "보쌈"
+            ],
+            "door": "front",
+            "lightly": "yes",
+            "alcohol": "no",
+            "soup": "no",
+            "spicy": "no",
+            "time": 1,
+            "address": "서울 동대문구 전농로30길 27 1층",
+            "score": 0
+        },
+        {
+            "name": "김밥에 빠지다",
+            "menu": [
+                "김밥"
+            ],
+            "door": "front",
+            "lightly": "yes",
+            "alcohol": "no",
+            "soup": "no",
+            "spicy": "no",
+            "time": 5,
+            "address": "서울 동대문구 전농로 237",
+            "score": 0
+        },
+        {
+            "name": "유초밥돈까스",
+            "menu": [
+                "돈까스",
+                "덮밥"
+            ],
+            "door": "front",
+            "lightly": "yes",
+            "alcohol": "no",
+            "soup": "no",
+            "spicy": "no",
+            "time": 6,
+            "address": "서울 동대문구 왕산로 280",
+            "score": 0
+        },
+        {
+            "name": "봄솔레씨네",
+            "menu": [
+                "파스타",
+                "리조또",
+                "샌드위치"
+            ],
+            "door": "front",
+            "lightly": "yes",
+            "alcohol": "no",
+            "soup": "no",
+            "spicy": "no",
+            "time": 2,
+            "address": "서울 동대문구 서울시립대로29길 3 2층",
+            "score": 0
+        },
+        {
+            "name": "자작나무키친",
+            "menu": [
+                "토마토 파스타",
+                "오일 파스타",
+                "크림 파스타",
+                "샐러드"
+            ],
+            "door": "front",
+            "lightly": "yes",
+            "alcohol": "no",
+            "soup": "no",
+            "spicy": "no",
+            "time": 15,
+            "address": "서울 동대문구 전농로20길 4 1층",
+            "score": 0
+        },
+        {
+            "name": "이삭토스트",
+            "menu": [
+                "토스트"
+            ],
+            "door": "front",
+            "lightly": "yes",
+            "alcohol": "no",
+            "soup": "no",
+            "spicy": "no",
+            "time": 1,
+            "address": "서울 동대문구 서울시립대로 160",
+            "score": 0
+        },
+        {
+            "name": "착한초밥",
+            "menu": [
+                "초밥",
+                "연어 사시미",
+                "유부 우동"
+            ],
+            "door": "front",
+            "lightly": "yes",
+            "alcohol": "no",
+            "soup": "no",
+            "spicy": "no",
+            "time": 7,
+            "address": "서울 동대문구 왕산로 272",
+            "score": 0
+        },
+        {
+            "name": "전농초밥",
+            "menu": [
+                "초밥",
+                "회",
+                "덮밥"
+            ],
+            "door": "front",
+            "lightly": "yes",
+            "alcohol": "no",
+            "soup": "no",
+            "spicy": "no",
+            "time": 15,
+            "address": "서울 동대문구 사가정로 122 하우스토리 108호",
+            "score": 0
+        },
+        {
+            "name": "농푸꼬지기",
+            "menu": [
+                "비빔밥",
+                "콩나물 국밥",
+                "파전"
+            ],
+            "door": "front",
+            "lightly": "yes",
+            "alcohol": "no",
+            "soup": "no",
+            "spicy": "no",
+            "time": 15,
+            "address": "서울 동대문구 전농동 588-1",
+            "score": 0
+        },
+        {
+            "name": "미태리",
+            "menu": [
+                "파스타",
+                "피자",
+                "리조또",
+                "볶음밥"
+            ],
+            "door": "front",
+            "lightly": "yes",
+            "alcohol": "no",
+            "soup": "no",
+            "spicy": "no",
+            "time": 10,
+            "address": "서울 동대문구 전농로15길 7 내제본관 1층 3호",
+            "score": 0
+        },
+        {
+            "name": "치쥬",
+            "menu": [
+                "파니니",
+                "파스타",
+                "리조또",
+                "샐러드",
+                "요거트",
+                "샌드위치"
+            ],
+            "door": "front",
+            "lightly": "yes",
+            "alcohol": "no",
+            "soup": "no",
+            "spicy": "no",
+            "time": 10,
+            "address": "서울 동대문구 서울시립대로 78-21 1층",
+            "score": 0
+        },
+        {
+            "name": "맘스터치",
+            "menu": [
+                "햄버거"
+            ],
+            "door": "front",
+            "lightly": "yes",
+            "alcohol": "no",
+            "soup": "no",
+            "spicy": "no",
+            "time": 1,
+            "address": "서울 동대문구 전농로 222",
+            "score": 0
+        },
+        {
+            "name": "전현필식당",
+            "menu": [
+                "스테이크",
+                "알리오 올리오",
+                "파스타",
+                "리조또"
+            ],
+            "door": "front",
+            "lightly": "yes",
+            "alcohol": "no",
+            "soup": "no",
+            "spicy": "no",
+            "time": 10,
+            "address": "서울 동대문구 서울시립대로 82 우측 2호",
+            "score": 0
+        },
+        {
+            "name": "이판사판공사판",
+            "menu": [
+                "만두전골",
+                "김치찌개",
+                "부대찌개",
+                "계란말이"
+            ],
+            "door": "front",
+            "lightly": "no",
+            "alcohol": "yes",
+            "soup": "no",
+            "spicy": "no",
+            "time": 3,
+            "address": "서울 동대문구 전농로 225",
+            "score": 0
+        },
+        {
+            "name": "최원석의돼지한판&서해쭈꾸미",
+            "menu": [
+                "삼겹살",
+                "주먹고기",
+                "쭈꾸미 철판볶음"
+            ],
+            "door": "front",
+            "lightly": "no",
+            "alcohol": "yes",
+            "soup": "no",
+            "spicy": "no",
+            "time": 1,
+            "address": "서울 동대문구 전농로 222",
+            "score": 0
+        },
+        {
+            "name": "위대한족보",
+            "menu": [
+                "족발",
+                "보쌈",
+                "앞다리"
+            ],
+            "door": "front",
+            "lightly": "no",
+            "alcohol": "yes",
+            "soup": "no",
+            "spicy": "no",
+            "time": 6,
+            "address": "서울 동대문구 전농로 217-3",
+            "score": 0
+        },
+        {
+            "name": "독",
+            "menu": [
+                "조폭불고기",
+                "18K 도시락"
+            ],
+            "door": "front",
+            "lightly": "no",
+            "alcohol": "yes",
+            "soup": "no",
+            "spicy": "no",
+            "time": 6,
+            "address": "서울 동대문구 왕산로 278-1",
+            "score": 0
+        },
+        {
+            "name": "19고깃집",
+            "menu": [
+                "통삼겹살",
+                "통오겹살"
+            ],
+            "door": "front",
+            "lightly": "no",
+            "alcohol": "yes",
+            "soup": "no",
+            "spicy": "no",
+            "time": 3,
+            "address": "서울 동대문구 전농로 227",
+            "score": 0
+        },
+        {
+            "name": "시대곱창",
+            "menu": [
+                "곱창",
+                "야채곱창",
+                "순대곱창",
+                "닭발"
+            ],
+            "door": "front",
+            "lightly": "no",
+            "alcohol": "yes",
+            "soup": "no",
+            "spicy": "no",
+            "time": 6,
+            "address": "서울 동대문구 전농로 187-1 1층",
+            "score": 0
+        },
+        {
+            "name": "호야네족발",
+            "menu": [
+                "족발",
+                "불족발",
+                "보쌈"
+            ],
+            "door": "front",
+            "lightly": "no",
+            "alcohol": "yes",
+            "soup": "no",
+            "spicy": "no",
+            "time": 6,
+            "address": "서울 동대문구 전농로 189",
+            "score": 0
+        },
+        {
+            "name": "싸다구회수산",
+            "menu": [
+                "회",
+                "광어",
+                "우럭",
+                "연어"
+            ],
+            "door": "front",
+            "lightly": "no",
+            "alcohol": "yes",
+            "soup": "no",
+            "spicy": "no",
+            "time": 5,
+            "address": "서울 동대문구 서울시립대로 138",
+            "score": 0
+        },
+        {
+            "name": "옛날집",
+            "menu": [
+                "초벌구이 통삼겹살",
+                "대패삼겹살",
+                "우삼겹",
+                "왕갈비"
+            ],
+            "door": "front",
+            "lightly": "no",
+            "alcohol": "yes",
+            "soup": "no",
+            "spicy": "no",
+            "time": 5,
+            "address": "서울 동대문구 전농로 229 옛날집",
+            "score": 0
+        },
+        {
+            "name": "화성옥갈비생갈비",
+            "menu": [
+                "돼지갈비",
+                "소갈비",
+                "대패 삼겹살",
+                "삼겹살",
+                "생갈비",
+                "냉면"
+            ],
+            "door": "front",
+            "lightly": "no",
+            "alcohol": "yes",
+            "soup": "no",
+            "spicy": "no",
+            "time": 15,
+            "address": "서울 동대문구 전농로14길 7",
+            "score": 0
+        },
+        {
+            "name": "손문대구막창갈매기살",
+            "menu": [
+                "삼겹살",
+                "갈매기살",
+                "소막창",
+                "대구막창",
+                "닭갈비"
+            ],
+            "door": "front",
+            "lightly": "no",
+            "alcohol": "yes",
+            "soup": "no",
+            "spicy": "no",
+            "time": 5,
+            "address": "서울 동대문구 서울시립대로23길 2",
+            "score": 0
+        },
+        {
+            "name": "퐈이야",
+            "menu": [
+                "이베리코 꽃목살",
+                "삼겹살",
+                "항정살",
+                "우삼겹살",
+                "껍데기"
+            ],
+            "door": "front",
+            "lightly": "no",
+            "alcohol": "yes",
+            "soup": "no",
+            "spicy": "no",
+            "time": 6,
+            "address": "서울 동대문구 왕산로 278 2층",
+            "score": 0
+        },
+        {
+            "name": "마루한",
+            "menu": [
+                "돼지갈비",
+                "LA갈비",
+                "삼겹살",
+                "육회"
+            ],
+            "door": "front",
+            "lightly": "no",
+            "alcohol": "yes",
+            "soup": "no",
+            "spicy": "no",
+            "time": 4,
+            "address": "서울 동대문구 서울시립대로27길 3 대광빌딩 1층",
+            "score": 0
+        },
+        {
+            "name": "훈구생각",
+            "menu": [
+                "삼겹살"
+            ],
+            "door": "front",
+            "lightly": "no",
+            "alcohol": "yes",
+            "soup": "no",
+            "spicy": "no",
+            "time": 3,
+            "address": "서울 동대문구 전농로 225",
+            "score": 0
+        },
+        {
+            "name": "해피디쉬클럽",
+            "menu": [
+                "플래터",
+                "파스타",
+                "피자",
+                "샐러드"
+            ],
+            "door": "front",
+            "lightly": "no",
+            "alcohol": "yes",
+            "soup": "no",
+            "spicy": "no",
+            "time": 1,
+            "address": "서울 동대문구 서울시립대로 164",
+            "score": 0
+        },
+        {
+            "name": "고미소곱창",
+            "menu": [
+                "곱창",
+                "막창",
+                "대창",
+                "양대창"
+            ],
+            "door": "front",
+            "lightly": "no",
+            "alcohol": "yes",
+            "soup": "no",
+            "spicy": "no",
+            "time": 20,
+            "address": "서울 동대문구 왕산로 228 1층 고미소곱창",
+            "score": 0
+        },
+        {
+            "name": "명동이발관",
+            "menu": [
+                "치킨",
+                "닭껍질튀김",
+                "야키소바"
+            ],
+            "door": "front",
+            "lightly": "no",
+            "alcohol": "yes",
+            "soup": "no",
+            "spicy": "no",
+            "time": 5,
+            "address": "서울 동대문구 서울시립대로27길 49 1층",
+            "score": 0
+        },
+        {
+            "name": "꾸워봐",
+            "menu": [
+                "이베리코 꽃목살",
+                "이베리코 꽃삼겹",
+                "이베리코 황제살",
+                "이베리코 갈비살",
+                "이베리코 항정살"
+            ],
+            "door": "front",
+            "lightly": "no",
+            "alcohol": "yes",
+            "soup": "no",
+            "spicy": "no",
+            "time": 20,
+            "address": "서울 동대문구 왕산로37길 15",
+            "score": 0
+        },
+        {
+            "name": "장수회관",
+            "menu": [
+                "갈매기살",
+                "곱창전골",
+                "돌솥밥",
+                "삼겹살"
+            ],
+            "door": "front",
+            "lightly": "no",
+            "alcohol": "yes",
+            "soup": "no",
+            "spicy": "no",
+            "time": 11,
+            "address": "서울 동대문구 전농로16길 16",
+            "score": 0
+        },
+        {
+            "name": "청정생고기",
+            "menu": [
+                "삼겹살",
+                "항정살",
+                "갈매기살",
+                "갈비살",
+                "등심"
+            ],
+            "door": "front",
+            "lightly": "no",
+            "alcohol": "yes",
+            "soup": "no",
+            "spicy": "no",
+            "time": 6,
+            "address": "서울 동대문구 서울시립대로 121",
+            "score": 0
+        },
+        {
+            "name": "호수갈비",
+            "menu": [
+                "삼겹살",
+                "차돌박이",
+                "목살"
+            ],
+            "door": "front",
+            "lightly": "no",
+            "alcohol": "yes",
+            "soup": "no",
+            "spicy": "no",
+            "time": 5,
+            "address": "서울 동대문구 서울시립대로27길 53",
+            "score": 0
+        },
+        {
+            "name": "갈비가 맛있는 집",
+            "menu": [
+                "돼지갈비",
+                "삼겹살",
+                "석쇠불고기",
+                "순두부찌개",
+                "김치찌개"
+            ],
+            "door": "front",
+            "lightly": "no",
+            "alcohol": "yes",
+            "soup": "no",
+            "spicy": "no",
+            "time": 7,
+            "address": "서울 동대문구 왕산로 290",
+            "score": 0
+        },
+        {
+            "name": "홍능족발",
+            "menu": [
+                "보쌈",
+                "족발",
+                "튀김",
+                "등갈비",
+                "막국수"
+            ],
+            "door": "front",
+            "lightly": "no",
+            "alcohol": "yes",
+            "soup": "no",
+            "spicy": "no",
+            "time": 20,
+            "address": "서울 동대문구 홍릉로 20",
+            "score": 0
+        },
+        {
+            "name": "국수천천히",
+            "menu": [
+                "멸치국수",
+                "비빔국수",
+                "열무냉면",
+                "돼지고기덮밥",
+                "비빔밥"
+            ],
+            "door": "front",
+            "lightly": "no",
+            "alcohol": "no",
+            "soup": "yes",
+            "spicy": "no",
+            "time": 5,
+            "address": "서울 동대문구 서울시립대로28길 6",
+            "score": 0
+        },
+        {
+            "name": "숙이네 김밥",
+            "menu": [
+                "라면",
+                "김밥",
+                "덮밥",
+                "비빔밥",
+                "떡볶이",
+                "냉면"
+            ],
+            "door": "front",
+            "lightly": "no",
+            "alcohol": "no",
+            "soup": "yes",
+            "spicy": "no",
+            "time": 2,
+            "address": "서울 동대문구 전농로 210 (1층)",
+            "score": 0
+        },
+        {
+            "name": "가위바위보떡볶이",
+            "menu": [
+                "떡볶이",
+                "냉면",
+                "라면",
+                "주먹밥"
+            ],
+            "door": "front",
+            "lightly": "no",
+            "alcohol": "no",
+            "soup": "yes",
+            "spicy": "no",
+            "time": 1,
+            "address": "서울 동대문구 전농로 222",
+            "score": 0
+        },
+        {
+            "name": "논산골",
+            "menu": [
+                "바지락칼국수",
+                "홍합 장칼국수",
+                "콩국수",
+                "만두"
+            ],
+            "door": "front",
+            "lightly": "no",
+            "alcohol": "no",
+            "soup": "yes",
+            "spicy": "no",
+            "time": 7,
+            "address": "서울 동대문구 전농로29길 54",
+            "score": 0
+        },
+        {
+            "name": "고미소곱창",
+            "menu": [
+                "곱창",
+                "막창",
+                "대창",
+                "양대창"
+            ],
+            "door": "front",
+            "lightly": "no",
+            "alcohol": "yes",
+            "soup": "no",
+            "spicy": "no",
+            "time": 20,
+            "address": "서울 동대문구 왕산로 228 1층 고미소곱창",
+            "score": 0
+        },
+        {
+            "name": "봉구비어",
+            "menu": [
+                "감자튀김",
+                "쥐포",
+                "나쵸",
+                "김말이 튀김",
+                "치즈스틱"
+            ],
+            "door": "front",
+            "lightly": "yes",
+            "alcohol": "yes",
+            "soup": "no",
+            "spicy": "no",
+            "time": 4,
+            "address": "서울 동대문구 전농로 233-1",
+            "score": 0
+        },
+        {
+            "name": "신락원",
+            "menu": [
+                "자장면",
+                "짬뽕",
+                "탕수육",
+                "중새우요리"
+            ],
+            "door": "front",
+            "lightly": "yes",
+            "alcohol": "no",
+            "soup": "yes",
+            "spicy": "no",
+            "time": 10,
+            "address": "서울 동대문구 전농로20길 2",
+            "score": 0
+        },
+        {
+            "name": "동해루",
+            "menu": [
+                "자장면",
+                "짬뽕",
+                "볶음밥",
+                "탕수육"
+            ],
+            "door": "front",
+            "lightly": "yes",
+            "alcohol": "no",
+            "soup": "yes",
+            "spicy": "no",
+            "time": 5,
+            "address": "서울 동대문구 전농로 237 1층 권사부순대국 시립대점",
+            "score": 0
+        },
+        {
+            "name": "논산골",
+            "menu": [
+                "바지락칼국수",
+                "홍합 장칼국수",
+                "콩국수",
+                "만두"
+            ],
+            "door": "front",
+            "lightly": "yes",
+            "alcohol": "no",
+            "soup": "yes",
+            "spicy": "no",
+            "time": 7,
+            "address": "서울 동대문구 전농로29길 54",
+            "score": 0
+        },
+        {
+            "name": "권사부 순대국",
+            "menu": [
+                "순대국",
+                "돼지국밥",
+                "뼈해장국",
+                "육개장"
+            ],
+            "door": "front",
+            "lightly": "yes",
+            "alcohol": "no",
+            "soup": "yes",
+            "spicy": "no",
+            "time": 5,
+            "address": "서울 동대문구 전농로 237 1층 권사부순대국 시립대점",
+            "score": 0
+        },
+        {
+            "name": "윤가네",
+            "menu": [
+                "김밥",
+                "찌개",
+                "덮밥"
+            ],
+            "door": "front",
+            "lightly": "yes",
+            "alcohol": "no",
+            "soup": "yes",
+            "spicy": "no",
+            "time": 1,
+            "address": "서울 동대문구 서울시립대로29길 3",
+            "score": 0
+        },
+        {
+            "name": "마카나이",
+            "menu": [
+                "라멘",
+                "규동",
+                "차슈",
+                "카레",
+                "덮밥"
+            ],
+            "door": "front",
+            "lightly": "yes",
+            "alcohol": "no",
+            "soup": "yes",
+            "spicy": "no",
+            "time": 7,
+            "address": "서울 동대문구 왕산로 272-1 1층 2",
+            "score": 0
+        },
+        {
+            "name": "국수천천히",
+            "menu": [
+                "멸치국수",
+                "비빔국수",
+                "열무냉면",
+                "돼지고기덮밥",
+                "비빔밥"
+            ],
+            "door": "front",
+            "lightly": "yes",
+            "alcohol": "no",
+            "soup": "yes",
+            "spicy": "no",
+            "time": 5,
+            "address": "서울 동대문구 서울시립대로28길 6",
+            "score": 0
+        },
+        {
+            "name": "숙이네 김밥",
+            "menu": [
+                "라면",
+                "김밥",
+                "덮밥",
+                "비빔밥",
+                "떡볶이",
+                "냉면"
+            ],
+            "door": "front",
+            "lightly": "yes",
+            "alcohol": "no",
+            "soup": "yes",
+            "spicy": "no",
+            "time": 2,
+            "address": "서울 동대문구 전농로 210 (1층)",
+            "score": 0
+        },
+        {
+            "name": "원조소머리국밥",
+            "menu": [
+                "소머리국밥",
+                "순대국",
+                "소양머리국",
+                "양선지 해장국"
+            ],
+            "door": "front",
+            "lightly": "yes",
+            "alcohol": "no",
+            "soup": "yes",
+            "spicy": "no",
+            "time": 20,
+            "address": "서울 동대문구 홍릉로1길 5",
+            "score": 0
+        },
+        {
+            "name": "고향집",
+            "menu": [
+                "순대국",
+                "순대정식",
+                "순대",
+                "국밥"
+            ],
+            "door": "front",
+            "lightly": "yes",
+            "alcohol": "no",
+            "soup": "yes",
+            "spicy": "no",
+            "time": 20,
+            "address": "서울 동대문구 왕산로37길 7",
+            "score": 0
+        },
+        {
+            "name": "청년다방",
+            "menu": [
+                "차돌떡볶이",
+                "차돌세트",
+                "날치알볶음밥"
+            ],
+            "door": "front",
+            "lightly": "yes",
+            "alcohol": "no",
+            "soup": "no",
+            "spicy": "yes",
+            "time": 3,
+            "address": "서울 동대문구 전농로 230",
+            "score": 0
+        },
+        {
+            "name": "가위바위보떡볶이",
+            "menu": [
+                "떡볶이",
+                "냉면",
+                "라면",
+                "주먹밥"
+            ],
+            "door": "front",
+            "lightly": "yes",
+            "alcohol": "no",
+            "soup": "no",
+            "spicy": "yes",
+            "time": 1,
+            "address": "서울 동대문구 전농로 222",
+            "score": 0
+        },
+        {
+            "name": "최원석의돼지한판&서해쭈꾸미",
+            "menu": [
+                "삼겹살",
+                "주먹고기",
+                "쭈꾸미 철판볶음"
+            ],
+            "door": "front",
+            "lightly": "no",
+            "alcohol": "yes",
+            "soup": "no",
+            "spicy": "yes",
+            "time": 1,
+            "address": "서울 동대문구 전농로 222",
+            "score": 0
+        },
+        {
+            "name": "서울 뼈구이 매운족발",
+            "menu": [
+                "뼈구이",
+                "미니족발"
+            ],
+            "door": "front",
+            "lightly": "no",
+            "alcohol": "yes",
+            "soup": "no",
+            "spicy": "yes",
+            "time": 8,
+            "address": "서울 동대문구 왕산로 274-1",
+            "score": 0
+        },
+        {
+            "name": "그린하우스",
+            "menu": [
+                "부대찌개",
+                "된장찌개",
+                "김치찌개"
+            ],
+            "door": "front",
+            "lightly": "no",
+            "alcohol": "no",
+            "soup": "yes",
+            "spicy": "yes",
+            "time": 2,
+            "address": "서울 동대문구 전농로 219",
+            "score": 0
+        },
+        {
+            "name": "고향미중식당",
+            "menu": [
+                "마라탕",
+                "마라상궈",
+                "꿔바로우",
+                "마파두부"
+            ],
+            "door": "front",
+            "lightly": "no",
+            "alcohol": "no",
+            "soup": "yes",
+            "spicy": "yes",
+            "time": 10,
+            "address": "서울 동대문구 제기로37길 12",
+            "score": 0
+        },
+        {
+            "name": "이판사판공사판",
+            "menu": [
+                "만두전골",
+                "김치찌개",
+                "부대찌개",
+                "계란말이"
+            ],
+            "door": "front",
+            "lightly": "no",
+            "alcohol": "yes",
+            "soup": "yes",
+            "spicy": "no",
+            "time": 3,
+            "address": "서울 동대문구 전농로 225",
+            "score": 0
+        },
+        {
+            "name": "도토리군버섯양",
+            "menu": [
+                "샤브샤브",
+                "도버칼국수"
+            ],
+            "door": "front",
+            "lightly": "no",
+            "alcohol": "yes",
+            "soup": "yes",
+            "spicy": "no",
+            "time": 1,
+            "address": "서울 동대문구 전농로 222 씨티빌라트",
+            "score": 0
+        },
+        {
+            "name": "돗가비",
+            "menu": [
+                "오꼬노미야키",
+                "짬뽕",
+                "나베",
+                "오뎅탕"
+            ],
+            "door": "front",
+            "lightly": "no",
+            "alcohol": "yes",
+            "soup": "yes",
+            "spicy": "no",
+            "time": 7,
+            "address": "서울 동대문구 왕산로 270-1",
+            "score": 0
+        },
+        {
+            "name": "화야",
+            "menu": [
+                "밀푀유나베",
+                "오뎅나베",
+                "수육",
+                "탕수육"
+            ],
+            "door": "front",
+            "lightly": "no",
+            "alcohol": "yes",
+            "soup": "yes",
+            "spicy": "no",
+            "time": 7,
+            "address": "서울 동대문구 서울시립대로 118 1층",
+            "score": 0
+        },
+        {
+            "name": "이판사판공사판",
+            "menu": [
+                "만두전골",
+                "김치찌개",
+                "부대찌개",
+                "계란말이"
+            ],
+            "door": "front",
+            "lightly": "yes",
+            "alcohol": "yes",
+            "soup": "yes",
+            "spicy": "no",
+            "time": 3,
+            "address": "서울 동대문구 전농로 225",
+            "score": 0
+        },
+        {
+            "name": "주향",
+            "menu": [
+                "오뎅탕",
+                "계란찜",
+                "물만두",
+                "노가리",
+                "계란말이"
+            ],
+            "door": "front",
+            "lightly": "yes",
+            "alcohol": "yes",
+            "soup": "yes",
+            "spicy": "no",
+            "time": 4,
+            "address": "서울 동대문구 전농로 231",
+            "score": 0
+        },
+        {
+            "name": "도토리군버섯양",
+            "menu": [
+                "샤브샤브",
+                "도버칼국수"
+            ],
+            "door": "front",
+            "lightly": "yes",
+            "alcohol": "yes",
+            "soup": "yes",
+            "spicy": "no",
+            "time": 1,
+            "address": "서울 동대문구 전농로 222 씨티빌라트",
+            "score": 0
+        },
+        {
+            "name": "최원석의돼지한판&서해쭈꾸미",
+            "menu": [
+                "삼겹살",
+                "주먹고기",
+                "쭈꾸미 철판볶음"
+            ],
+            "door": "front",
+            "lightly": "yes",
+            "alcohol": "yes",
+            "soup": "no",
+            "spicy": "yes",
+            "time": 1,
+            "address": "서울 동대문구 전농로 222",
+            "score": 0
+        },
+        {
+            "name": "신락원",
+            "menu": [
+                "자장면",
+                "짬뽕",
+                "탕수육",
+                "중새우요리"
+            ],
+            "door": "front",
+            "lightly": "yes",
+            "alcohol": "no",
+            "soup": "yes",
+            "spicy": "yes",
+            "time": 10,
+            "address": "서울 동대문구 전농로20길 2",
+            "score": 0
+        },
+        {
+            "name": "동해루",
+            "menu": [
+                "자장면",
+                "짬뽕",
+                "볶음밥",
+                "탕수육"
+            ],
+            "door": "front",
+            "lightly": "yes",
+            "alcohol": "no",
+            "soup": "yes",
+            "spicy": "yes",
+            "time": 5,
+            "address": "서울 동대문구 전농로 237 1층 권사부순대국 시립대점",
+            "score": 0
+        },
+        {
+            "name": "논산골",
+            "menu": [
+                "바지락칼국수",
+                "홍합 장칼국수",
+                "콩국수",
+                "만두"
+            ],
+            "door": "front",
+            "lightly": "yes",
+            "alcohol": "no",
+            "soup": "yes",
+            "spicy": "yes",
+            "time": 7,
+            "address": "서울 동대문구 전농로29길 54",
+            "score": 0
+        },
+        {
+            "name": "권사부 순대국",
+            "menu": [
+                "순대국",
+                "돼지국밥",
+                "뼈해장국",
+                "육개장"
+            ],
+            "door": "front",
+            "lightly": "yes",
+            "alcohol": "no",
+            "soup": "yes",
+            "spicy": "yes",
+            "time": 5,
+            "address": "서울 동대문구 전농로 237 1층 권사부순대국 시립대점",
+            "score": 0
+        },
+        {
+            "name": "꽃닭",
+            "menu": [
+                "찜닭",
+                "닭볶음탕",
+                "삼겹 김치찜"
+            ],
+            "door": "front",
+            "lightly": "yes",
+            "alcohol": "no",
+            "soup": "yes",
+            "spicy": "yes",
+            "time": 1,
+            "address": "서울 동대문구 전농로30길 27",
+            "score": 0
+        },
+        {
+            "name": "마라성연",
+            "menu": [
+                "마라탕",
+                "마라룽샤",
+                "마파두부"
+            ],
+            "door": "front",
+            "lightly": "yes",
+            "alcohol": "no",
+            "soup": "yes",
+            "spicy": "yes",
+            "time": 5,
+            "address": "서울 동대문구 전농로 217-3 1층",
+            "score": 0
+        },
+        {
+            "name": "이판사판공사판",
+            "menu": [
+                "만두전골",
+                "김치찌개",
+                "부대찌개",
+                "계란말이"
+            ],
+            "door": "front",
+            "lightly": "no",
+            "alcohol": "yes",
+            "soup": "yes",
+            "spicy": "yes",
+            "time": 3,
+            "address": "서울 동대문구 전농로 225",
+            "score": 0
+        },
+        {
+            "name": "돗가비",
+            "menu": [
+                "오꼬노미야키",
+                "짬뽕",
+                "나베",
+                "오뎅탕"
+            ],
+            "door": "front",
+            "lightly": "no",
+            "alcohol": "yes",
+            "soup": "yes",
+            "spicy": "yes",
+            "time": 7,
+            "address": "서울 동대문구 왕산로 270-1",
+            "score": 0
+        },
+        {
+            "name": "김치만선생",
+            "menu": [
+                "김치찌개",
+                "수제 떡갈비",
+                "계란말이",
+                "비빔칼국수"
+            ],
+            "door": "front",
+            "lightly": "no",
+            "alcohol": "yes",
+            "soup": "yes",
+            "spicy": "yes",
+            "time": 4,
+            "address": "서울 동대문구 전농로 233",
+            "score": 0
+        },
+        {
+            "name": "해물알탕전문",
+            "menu": [
+                "해물알탕",
+                "해물동태탕"
+            ],
+            "door": "front",
+            "lightly": "no",
+            "alcohol": "yes",
+            "soup": "yes",
+            "spicy": "yes",
+            "time": 15,
+            "address": "서울 동대문구 전농로14길 12",
+            "score": 0
+        },
+        {
+            "name": "이모네 왕파전",
+            "menu": [
+                "파전",
+                "홍합탕",
+                "찌개",
+                "닭도리탕",
+                "곱창전골",
+                "오뎅탕"
+            ],
+            "door": "back",
+            "lightly": "yes",
+            "alcohol": "yes",
+            "soup": "yes",
+            "spicy": "yes",
+            "time": 15,
+            "address": "서울 동대문구 회기로28길 12-3",
+            "score": 0
+        },
+        {
+            "name": "마라대학",
+            "menu": [
+                "마라탕",
+                "마라룽샤",
+                "마파두부"
+            ],
+            "door": "back",
+            "lightly": "yes",
+            "alcohol": "yes",
+            "soup": "yes",
+            "spicy": "yes",
+            "time": 15,
+            "address": "서울 동대문구 회기로 192 2층",
+            "score": 0
+        },
+        {
+            "name": "쏘맥치기",
+            "menu": [
+                "떡볶이",
+                "제육볶음",
+                "김치찌개",
+                "부대찌개"
+            ],
+            "door": "back",
+            "lightly": "yes",
+            "alcohol": "yes",
+            "soup": "yes",
+            "spicy": "yes",
+            "time": 11,
+            "address": "서울 동대문구 망우로 79 2층 쏘맥치기",
+            "score": 0
+        },
+        {
+            "name": "신화쭈꾸미",
+            "menu": [
+                "쭈꾸미볶음",
+                "쭈꾸미삼겹살",
+                "바다쭈꾸미",
+                "눈꽃쭈꾸미"
+            ],
+            "door": "back",
+            "lightly": "no",
+            "alcohol": "no",
+            "soup": "no",
+            "spicy": "yes",
+            "time": 20,
+            "address": "서울 동대문구 경희대로4길 74",
+            "score": 0
+        },
+        {
+            "name": "고기하다",
+            "menu": [
+                "목살",
+                "삼겹살",
+                "소갈비살"
+            ],
+            "door": "back",
+            "lightly": "no",
+            "alcohol": "no",
+            "soup": "no",
+            "spicy": "no",
+            "time": 20,
+            "address": "서울 동대문구 경희대로4길 64 1층",
+            "score": 0
+        },
+        {
+            "name": "일번지숯불대왕갈비",
+            "menu": [
+                "돼지갈비",
+                "삼겹살",
+                "목살",
+                "대패삼겹살"
+            ],
+            "door": "back",
+            "lightly": "no",
+            "alcohol": "no",
+            "soup": "no",
+            "spicy": "no",
+            "time": 8,
+            "address": "서울 동대문구 망우로16길 9",
+            "score": 0
+        },
+        {
+            "name": "일구구삼",
+            "menu": [
+                "삼겹살",
+                "목살",
+                "쫀득살"
+            ],
+            "door": "back",
+            "lightly": "no",
+            "alcohol": "no",
+            "soup": "no",
+            "spicy": "no",
+            "time": 23,
+            "address": "서울 동대문구 회기로19길 18 1층",
+            "score": 0
+        },
+        {
+            "name": "학산식당",
+            "menu": [
+                "오새홍 볶음면",
+                "오새홍 철판덮밥",
+                "제육볶음",
+                "김치찌개"
+            ],
+            "door": "back",
+            "lightly": "no",
+            "alcohol": "no",
+            "soup": "no",
+            "spicy": "no",
+            "time": 7,
+            "address": "서울 동대문구 망우로12가길 3",
+            "score": 0
+        },
+        {
+            "name": "맘스터치",
+            "menu": [
+                "햄버거"
+            ],
+            "door": "back",
+            "lightly": "yes",
+            "alcohol": "no",
+            "soup": "no",
+            "spicy": "no",
+            "time": 10,
+            "address": "서울 동대문구 망우로 74",
+            "score": 0
+        },
+        {
+            "name": "놀부만두",
+            "menu": [
+                "만두",
+                "모밀",
+                "우동",
+                "비빔밥"
+            ],
+            "door": "back",
+            "lightly": "yes",
+            "alcohol": "no",
+            "soup": "no",
+            "spicy": "no",
+            "time": 8,
+            "address": "서울 동대문구 망우로16길 15",
+            "score": 0
+        },
+        {
+            "name": "반지하돈부리",
+            "menu": [
+                "규동",
+                "사케동",
+                "카레",
+                "가츠동"
+            ],
+            "door": "back",
+            "lightly": "yes",
+            "alcohol": "no",
+            "soup": "no",
+            "spicy": "no",
+            "time": 1,
+            "address": "서울 동대문구 망우로18다길 44",
+            "score": 0
+        },
+        {
+            "name": "라구퀸",
+            "menu": [
+                "파스타",
+                "샐러드",
+                "샌드위치"
+            ],
+            "door": "back",
+            "lightly": "yes",
+            "alcohol": "no",
+            "soup": "no",
+            "spicy": "no",
+            "time": 20,
+            "address": "서울 동대문구 회기로18길 16 라구퀸",
+            "score": 0
+        },
+        {
+            "name": "은행골",
+            "menu": [
+                "초밥",
+                "회"
+            ],
+            "door": "back",
+            "lightly": "yes",
+            "alcohol": "no",
+            "soup": "no",
+            "spicy": "no",
+            "time": 20,
+            "address": "서울 동대문구 회기로 155",
+            "score": 0
+        },
+        {
+            "name": "미소샌드",
+            "menu": [
+                "샌드위치",
+                "샐러드"
+            ],
+            "door": "back",
+            "lightly": "yes",
+            "alcohol": "no",
+            "soup": "no",
+            "spicy": "no",
+            "time": 6,
+            "address": "서울 동대문구 망우로18가길 42",
+            "score": 0
+        },
+        {
+            "name": "차칸스시",
+            "menu": [
+                "초밥",
+                "사시미"
+            ],
+            "door": "back",
+            "lightly": "yes",
+            "alcohol": "no",
+            "soup": "no",
+            "spicy": "no",
+            "time": 21,
+            "address": "서울 동대문구 회기로25길 52 1층",
+            "score": 0
+        },
+        {
+            "name": "행컵",
+            "menu": [
+                "컵밥",
+                "삼겹볶음밥",
+                "제육콤보"
+            ],
+            "door": "back",
+            "lightly": "yes",
+            "alcohol": "no",
+            "soup": "no",
+            "spicy": "no",
+            "time": 1,
+            "address": "서울 동대문구 망우로18라길 39-2",
+            "score": 0
+        },
+        {
+            "name": "라마파스타",
+            "menu": [
+                "크림 파스타",
+                "토마토 파스타",
+                "스프 파스타",
+                "까르보나라",
+                "리조또"
+            ],
+            "door": "back",
+            "lightly": "yes",
+            "alcohol": "no",
+            "soup": "no",
+            "spicy": "no",
+            "time": 2,
+            "address": "서울 동대문구 망우로18다길 19 1층 라마",
+            "score": 0
+        },
+        {
+            "name": "치즈밥이슈",
+            "menu": [
+                "치즈밥",
+                "치즈라면",
+                "치즈부대찌개"
+            ],
+            "door": "back",
+            "lightly": "yes",
+            "alcohol": "no",
+            "soup": "no",
+            "spicy": "no",
+            "time": 4,
+            "address": "서울 동대문구 망우로18가길 70 1층",
+            "score": 0
+        },
+        {
+            "name": "경발원",
+            "menu": [
+                "자장면",
+                "짬뽕",
+                "탕수육",
+                "깐풍기",
+                "유산슬"
+            ],
+            "door": "back",
+            "lightly": "yes",
+            "alcohol": "no",
+            "soup": "no",
+            "spicy": "no",
+            "time": 13,
+            "address": "서울 동대문구 망우로21길 34",
+            "score": 0
+        },
+        {
+            "name": "일구구삼",
+            "menu": [
+                "삼겹살",
+                "목살",
+                "쫀득살"
+            ],
+            "door": "back",
+            "lightly": "no",
+            "alcohol": "yes",
+            "soup": "no",
+            "spicy": "no",
+            "time": 23,
+            "address": "서울 동대문구 회기로19길 18 1층",
+            "score": 0
+        },
+        {
+            "name": "새벽두시",
+            "menu": [
+                "파스타",
+                "감바스",
+                "듀록 목살구이"
+            ],
+            "door": "back",
+            "lightly": "no",
+            "alcohol": "yes",
+            "soup": "no",
+            "spicy": "no",
+            "time": 1,
+            "address": "서울 동대문구 망우로16길 26 1층 새벽두시",
+            "score": 0
+        },
+        {
+            "name": "홍곱창",
+            "menu": [
+                "양념막창",
+                "불막창",
+                "곱창",
+                "불곱창"
+            ],
+            "door": "back",
+            "lightly": "no",
+            "alcohol": "yes",
+            "soup": "no",
+            "spicy": "no",
+            "time": 21,
+            "address": "서울 동대문구 회기로25길 60 1층 홍곱창",
+            "score": 0
+        },
+        {
+            "name": "장군뽈따구",
+            "menu": [
+                "안창살 숯불구이",
+                "뽈따구 숯불구이",
+                "육회"
+            ],
+            "door": "back",
+            "lightly": "no",
+            "alcohol": "yes",
+            "soup": "no",
+            "spicy": "no",
+            "time": 8,
+            "address": "서울 동대문구 망우로16길 5 장군뽈따구",
+            "score": 0
+        },
+        {
+            "name": "굿갓레스토랑",
+            "menu": [
+                "목심",
+                "등심 스테이크",
+                "안심 스테이크",
+                "파스타",
+                "갈비"
+            ],
+            "door": "back",
+            "lightly": "no",
+            "alcohol": "yes",
+            "soup": "no",
+            "spicy": "no",
+            "time": 20,
+            "address": "서울 동대문구 회기로19길 12 1층",
+            "score": 0
+        },
+        {
+            "name": "일번지숯불대왕갈비",
+            "menu": [
+                "돼지갈비",
+                "삼겹살",
+                "목살",
+                "대패삼겹살"
+            ],
+            "door": "back",
+            "lightly": "no",
+            "alcohol": "yes",
+            "soup": "no",
+            "spicy": "no",
+            "time": 8,
+            "address": "서울 동대문구 망우로16길 9",
+            "score": 0
+        },
+        {
+            "name": "고기하다",
+            "menu": [
+                "목살",
+                "삼겹살",
+                "소갈비살"
+            ],
+            "door": "back",
+            "lightly": "no",
+            "alcohol": "yes",
+            "soup": "no",
+            "spicy": "no",
+            "time": 20,
+            "address": "서울 동대문구 경희대로4길 64 1층",
+            "score": 0
+        },
+        {
+            "name": "장군집",
+            "menu": [
+                "뽈살",
+                "갈매기살",
+                "막창"
+            ],
+            "door": "back",
+            "lightly": "no",
+            "alcohol": "yes",
+            "soup": "no",
+            "spicy": "no",
+            "time": 20,
+            "address": "서울 동대문구 회기로25길 23-5",
+            "score": 0
+        },
+        {
+            "name": "하마쌀국수",
+            "menu": [
+                "쌀국수",
+                "비빔쌀국수",
+                "매운 쌀국수"
+            ],
+            "door": "back",
+            "lightly": "no",
+            "alcohol": "no",
+            "soup": "yes",
+            "spicy": "no",
+            "time": 1,
+            "address": "서울 동대문구 회기로25길 17-9 B동 101호",
+            "score": 0
+        },
+        {
+            "name": "노천파전",
+            "menu": [
+                "떡만두국",
+                "오뎅국수",
+                "꼬막집",
+                "굴전",
+                "홍합탕",
+                "닭볶음탕",
+                "계란탕"
+            ],
+            "door": "back",
+            "lightly": "no",
+            "alcohol": "no",
+            "soup": "yes",
+            "spicy": "no",
+            "time": 15,
+            "address": "서울 동대문구 회기로28길 3",
+            "score": 0
+        },
+        {
+            "name": "최원석의돼지한판&서해쭈꾸미",
+            "menu": [
+                "삼겹살",
+                "주먹고기",
+                "쭈꾸미 철판볶음"
+            ],
+            "door": "front",
+            "lightly": "no",
+            "alcohol": "no",
+            "soup": "no",
+            "spicy": "yes",
+            "time": 1,
+            "address": "서울 동대문구 전농로 222",
+            "score": 0
+        },
+        {
+            "name": "신화쭈꾸미",
+            "menu": [
+                "쭈꾸미볶음",
+                "쭈꾸미삼겹살",
+                "바다쭈꾸미",
+                "눈꽃쭈꾸미"
+            ],
+            "door": "back",
+            "lightly": "no",
+            "alcohol": "no",
+            "soup": "no",
+            "spicy": "yes",
+            "time": 20,
+            "address": "서울 동대문구 경희대로4길 74",
+            "score": 0
+        },
+        {
+            "name": "직 앤 쿡",
+            "menu": [
+                "직화쭈꾸미",
+                "철판 직화 쭈꾸미",
+                "쭈꾸미삼겹살"
+            ],
+            "door": "back",
+            "lightly": "no",
+            "alcohol": "no",
+            "soup": "no",
+            "spicy": "yes",
+            "time": 9,
+            "address": "서울 동대문구 망우로18가길 61-1",
+            "score": 0
+        },
+        {
+            "name": "크림스치킨",
+            "menu": [
+                "후라이드 치킨",
+                "양념 치킨",
+                "마늘간장 치킨",
+                "파닭 치킨"
+            ],
+            "door": "back",
+            "lightly": "yes",
+            "alcohol": "yes",
+            "soup": "no",
+            "spicy": "no",
+            "time": 8,
+            "address": "서울 동대문구 망우로18가길 61-1",
+            "score": 0
+        },
+        {
+            "name": "경발원",
+            "menu": [
+                "자장면",
+                "짬뽕",
+                "탕수육",
+                "깐풍기",
+                "유산슬"
+            ],
+            "door": "back",
+            "lightly": "yes",
+            "alcohol": "no",
+            "soup": "yes",
+            "spicy": "no",
+            "time": 13,
+            "address": "서울 동대문구 망우로21길 34",
+            "score": 0
+        },
+        {
+            "name": "하마쌀국수",
+            "menu": [
+                "쌀국수",
+                "비빔쌀국수",
+                "매운 쌀국수"
+            ],
+            "door": "back",
+            "lightly": "yes",
+            "alcohol": "no",
+            "soup": "yes",
+            "spicy": "no",
+            "time": 1,
+            "address": "서울 동대문구 회기로25길 17-9 B동 101호",
+            "score": 0
+        },
+        {
+            "name": "삼시세끼 한식뷔페",
+            "menu": [
+                "한식"
+            ],
+            "door": "back",
+            "lightly": "yes",
+            "alcohol": "no",
+            "soup": "yes",
+            "spicy": "no",
+            "time": 8,
+            "address": "서울 동대문구 망우로12길 17 1층",
+            "score": 0
+        },
+        {
+            "name": "이조감자탕",
+            "menu": [
+                "감자탕",
+                "콩나물 해장국밥",
+                "추어탕",
+                "해장국"
+            ],
+            "door": "back",
+            "lightly": "yes",
+            "alcohol": "no",
+            "soup": "yes",
+            "spicy": "no",
+            "time": 12,
+            "address": "서울 동대문구 망우로21길 24",
+            "score": 0
+        },
+        {
+            "name": "늘반한찜",
+            "menu": [
+                "소등갈비찜",
+                "소등갈비탕",
+                "사골곰탕"
+            ],
+            "door": "back",
+            "lightly": "yes",
+            "alcohol": "no",
+            "soup": "yes",
+            "spicy": "no",
+            "time": 5,
+            "address": "서울 동대문구 망우로21길 52 춘태빌딩 B동 104호",
+            "score": 0
+        },
+        {
+            "name": "경발원",
+            "menu": [
+                "자장면",
+                "짬뽕",
+                "탕수육",
+                "깐풍기",
+                "유산슬"
+            ],
+            "door": "back",
+            "lightly": "yes",
+            "alcohol": "no",
+            "soup": "no",
+            "spicy": "yes",
+            "time": 13,
+            "address": "서울 동대문구 망우로21길 34",
+            "score": 0
+        },
+        {
+            "name": "치즈밥이슈",
+            "menu": [
+                "치즈밥",
+                "치즈라면",
+                "치즈부대찌개"
+            ],
+            "door": "back",
+            "lightly": "yes",
+            "alcohol": "no",
+            "soup": "no",
+            "spicy": "yes",
+            "time": 4,
+            "address": "서울 동대문구 망우로18가길 70 1층",
+            "score": 0
+        },
+        {
+            "name": "라마파스타",
+            "menu": [
+                "크림 파스타",
+                "토마토 파스타",
+                "스프 파스타",
+                "까르보나라",
+                "리조또"
+            ],
+            "door": "back",
+            "lightly": "yes",
+            "alcohol": "no",
+            "soup": "no",
+            "spicy": "yes",
+            "time": 2,
+            "address": "서울 동대문구 망우로18다길 19 1층 라마",
+            "score": 0
+        },
+        {
+            "name": "알찬떡볶이",
+            "menu": [
+                "떡볶이"
+            ],
+            "door": "back",
+            "lightly": "yes",
+            "alcohol": "no",
+            "soup": "no",
+            "spicy": "yes",
+            "time": 5,
+            "address": "서울 동대문구 망우로18가길 52 1층 알찬떡볶이",
+            "score": 0
+        },
+        {
+            "name": "긴카오 태국식당",
+            "menu": [
+                "똠양꿍",
+                "푸팟풍커리",
+                "뽀삐야",
+                "팟타이",
+                "팟씨유"
+            ],
+            "door": "back",
+            "lightly": "yes",
+            "alcohol": "no",
+            "soup": "no",
+            "spicy": "yes",
+            "time": 2,
+            "address": "서울 동대문구 망우로18다길 19",
+            "score": 0
+        },
+        {
+            "name": "신화쭈꾸미",
+            "menu": [
+                "쭈꾸미볶음",
+                "쭈꾸미삼겹살",
+                "바다쭈꾸미",
+                "눈꽃쭈꾸미"
+            ],
+            "door": "back",
+            "lightly": "no",
+            "alcohol": "yes",
+            "soup": "no",
+            "spicy": "yes",
+            "time": 20,
+            "address": "서울 동대문구 경희대로4길 74",
+            "score": 0
+        },
+        {
+            "name": "노천파전",
+            "menu": [
+                "떡만두국",
+                "오뎅국수",
+                "꼬막집",
+                "굴전",
+                "홍합탕",
+                "닭볶음탕",
+                "계란탕"
+            ],
+            "door": "back",
+            "lightly": "no",
+            "alcohol": "yes",
+            "soup": "yes",
+            "spicy": "no",
+            "time": 15,
+            "address": "서울 동대문구 회기로28길 3",
+            "score": 0
+        },
+        {
+            "name": "야무진닭",
+            "menu": [
+                "국물 닭도리탕",
+                "간장찜닭",
+                "닭발"
+            ],
+            "door": "back",
+            "lightly": "no",
+            "alcohol": "no",
+            "soup": "yes",
+            "spicy": "yes",
+            "time": 6,
+            "address": "서울 동대문구 망우로12가길 10 1층",
+            "score": 0
+        },
+        {
+            "name": "후루사토",
+            "menu": [
+                "오마카세"
+            ],
+            "door": "back",
+            "lightly": "yes",
+            "alcohol": "yes",
+            "soup": "yes",
+            "spicy": "no",
+            "time": 2,
+            "address": "서울 동대문구 망우로18마길 16-1",
+            "score": 0
+        },
+        {
+            "name": "크림스치킨",
+            "menu": [
+                "후라이드 치킨",
+                "양념 치킨",
+                "마늘간장 치킨",
+                "파닭 치킨"
+            ],
+            "door": "back",
+            "lightly": "yes",
+            "alcohol": "yes",
+            "soup": "no",
+            "spicy": "yes",
+            "time": 8,
+            "address": "서울 동대문구 망우로18가길 61-1",
+            "score": 0
+        },
+        {
+            "name": "경발원",
+            "menu": [
+                "자장면",
+                "짬뽕",
+                "탕수육",
+                "깐풍기",
+                "유산슬"
+            ],
+            "door": "back",
+            "lightly": "yes",
+            "alcohol": "no",
+            "soup": "yes",
+            "spicy": "yes",
+            "time": 13,
+            "address": "서울 동대문구 망우로21길 34",
+            "score": 0
+        },
+        {
+            "name": "하마쌀국수",
+            "menu": [
+                "쌀국수",
+                "비빔쌀국수",
+                "매운 쌀국수"
+            ],
+            "door": "back",
+            "lightly": "yes",
+            "alcohol": "no",
+            "soup": "yes",
+            "spicy": "yes",
+            "time": 1,
+            "address": "서울 동대문구 회기로25길 17-9 B동 101호",
+            "score": 0
+        },
+        {
+            "name": "삼시세끼 한식뷔페",
+            "menu": [
+                "한식"
+            ],
+            "door": "back",
+            "lightly": "yes",
+            "alcohol": "no",
+            "soup": "yes",
+            "spicy": "yes",
+            "time": 8,
+            "address": "서울 동대문구 망우로12길 17 1층",
+            "score": 0
+        },
+        {
+            "name": "큐큐면관",
+            "menu": [
+                "우삼짬뽕",
+                "유니자장면",
+                "옛날짬뽕",
+                "냉면"
+            ],
+            "door": "back",
+            "lightly": "yes",
+            "alcohol": "no",
+            "soup": "yes",
+            "spicy": "yes",
+            "time": 17,
+            "address": "서울 동대문구 회기로 189",
+            "score": 0
+        },
+        {
+            "name": "레알라면",
+            "menu": [
+                "라면"
+            ],
+            "door": "back",
+            "lightly": "yes",
+            "alcohol": "no",
+            "soup": "yes",
+            "spicy": "yes",
+            "time": 20,
+            "address": "서울 동대문구 회기로25길 23-5 1층",
+            "score": 0
+        },
+        {
+            "name": "마라대학",
+            "menu": [
+                "마라탕",
+                "마라룽샤",
+                "마파두부"
+            ],
+            "door": "back",
+            "lightly": "yes",
+            "alcohol": "no",
+            "soup": "yes",
+            "spicy": "yes",
+            "time": 15,
+            "address": "서울 동대문구 회기로 192 2층",
+            "score": 0
+        },
+        {
+            "name": "노천파전",
+            "menu": [
+                "떡만두국",
+                "오뎅국수",
+                "꼬막집",
+                "굴전",
+                "홍합탕",
+                "닭볶음탕",
+                "계란탕"
+            ],
+            "door": "back",
+            "lightly": "no",
+            "alcohol": "yes",
+            "soup": "yes",
+            "spicy": "yes",
+            "time": 15,
+            "address": "서울 동대문구 회기로28길 3",
+            "score": 0
+        },
+        {
+            "name": "이모네 왕파전",
+            "menu": [
+                "파전",
+                "홍합탕",
+                "찌개",
+                "닭도리탕",
+                "곱창전골",
+                "오뎅탕"
+            ],
+            "door": "back",
+            "lightly": "no",
+            "alcohol": "yes",
+            "soup": "yes",
+            "spicy": "yes",
+            "time": 15,
+            "address": "서울 동대문구 회기로28길 12-3",
+            "score": 0
+        },
+        {
+            "name": "오뚝식당",
+            "menu": [
+                "새우 로제뽕",
+                "곱창 떡볶이",
+                "항정수육",
+                "곱창국수"
+            ],
+            "door": "back",
+            "lightly": "no",
+            "alcohol": "yes",
+            "soup": "yes",
+            "spicy": "yes",
+            "time": 20,
+            "address": "서울 동대문구 회기로26길 14 1층",
+            "score": 0
+        },
+        {
+            "name": "고기야미안해",
+            "menu": [
+                "회",
+                "매운탕"
+            ],
+            "door": "back",
+            "lightly": "no",
+            "alcohol": "yes",
+            "soup": "yes",
+            "spicy": "yes",
+            "time": 20,
+            "address": "서울 동대문구 경희대로4길 20",
+            "score": 0
+        }
+    ]
+}

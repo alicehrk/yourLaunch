@@ -35,7 +35,7 @@
     <main class="main-container">
 
         <div class="title-container">
-            <h3>추천해줄 식당은!</h3>
+            <h3>선택한 식당은!</h3>
         </div>
         <div id="restaurantname" class="restaurant-container">
             <h3></h3>
@@ -49,7 +49,6 @@
         <div class="btn-container">
             <a href="./index.html" class="btn btn1 btn--brown">메인 메뉴로</a>
             <div class="blank-container"></div>
-            <form> <a id="otherRest" class="btn btn1 btn--brown" href="">다른 맛집?</a></form>
         </div>
         <script src="https://openapi.map.naver.com/openapi/v3/maps.js?ncpClientId=23esz6pool"></script>
         <script type="text/javascript"
@@ -61,12 +60,9 @@
 </html>
 
 <script>
-    const Btns = document.querySelector("#otherRest");
     var requestURL = 'https://raw.githubusercontent.com/nick102030/JS/main/front.json';
     var request = new XMLHttpRequest();
-    var maxScore = 0; //json score 중 가장 큰 점수
-    var meetCondition = []; //가장 큰 점수를 가진 식당들을 저장할 배열
-    var indexHighestScore; //점수가 가장 높은 최종 식당의 index
+    var index;
     var Finaladdress;
 
     request.open('GET', requestURL);
@@ -76,49 +72,16 @@
     request.onload = function () {
         var matzip = request.response;
 
+        var restName = localStorage.getItem("result");
 
-        /* localStorage와 비교해 조건에 맞는 식당만 array에 추가.*/
-        for (var i = 0; i < matzip['members'].length; i++) {
-            if ((matzip['members'][i]['door'] == localStorage.getItem("door"))
-                &&
-                (matzip['members'][i]['lightly'] == localStorage.getItem("lightly"))
-                &&
-                (matzip['members'][i]['alcohol'] == localStorage.getItem("alcohol"))
-                &&
-                (matzip['members'][i]['soup'] == localStorage.getItem("soup"))
-                &&
-                (matzip['members'][i]['spicy'] == localStorage.getItem("spicy"))) {
-                meetCondition.push(i);
+        for (var i = 0; i<matzip['members'].length; i++) {
+            if (matzip['members'][i]['name'] == restName) {
+                FinalAddress = matzip['members'][i]['address'];
+                index = i;
+                break;
+
             }
         }
-
-
-        /* 시간 조건 만족하는 경우만 배열에 저장 */
-        if (localStorage.getItem("time") == "near") {
-            for (var i = 0; i < meetCondition.length; i++) {
-                if (matzip['members'][meetCondition[i]]['time'] > 14) {
-                    meetCondition.splice(i, 1);
-                    i--;
-                }
-            }
-        }
-
-
-        console.log(meetCondition);
-
-        if (meetCondition.length == 1) {
-            indexHighestScore = meetCondition[0];
-            Btns.parentNode.removeChild(Btns)
-        } else {
-            indexHighestScore = meetCondition[Math.ceil(Math.random() * meetCondition.length) - 1];
-        }
-
-
-
-        var FinalAddress = matzip['members'][indexHighestScore]['address'];
-
-
-        console.log(matzip['members'][indexHighestScore]['name'], indexHighestScore);
 
         naver
             .maps
@@ -172,7 +135,7 @@
 
         const restaurantName = document.querySelector("#restaurantname");
 
-        restaurantName.innerText = matzip['members'][indexHighestScore]['name'];
+        restaurantName.innerText = matzip['members'][index]['name'];
 
 
         localStorage.setItem("num", 1);

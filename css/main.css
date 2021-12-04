@@ -1,23 +1,22 @@
 /* common */
-body{
+body {
   color: #333;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.4;
-  font-family: 'Nanum Gothic', sans-serif;
+  font-family: "Nanum Gothic", sans-serif;
 }
 img {
   display: block;
 }
 
-a{
+a {
   display: block;
   padding-bottom: 10px;
   text-decoration: none;
   font-size: 16px;
   cursor: pointer;
 }
-
 
 .inner {
   width: 1100px;
@@ -37,7 +36,7 @@ a{
   cursor: pointer;
   box-sizing: border-box;
   display: block;
-  transition: .4s;
+  transition: 0.4s;
   z-index: 10;
 }
 .btn:hover {
@@ -79,15 +78,14 @@ a{
   transition-delay: 0s;
 }
 .show .back-to-position.delay-1 {
-  transition-delay: .3s;
+  transition-delay: 0.3s;
 }
 .show .back-to-position.delay-2 {
-  transition-delay: .6s;
+  transition-delay: 0.6s;
 }
 .show .back-to-position.delay-3 {
-  transition-delay: .9s;
+  transition-delay: 0.9s;
 }
-
 
 /* header */
 header {
@@ -100,7 +98,7 @@ header {
   z-index: 9;
 }
 header > .inner {
-  height: 140px;
+  height: 120px;
 }
 header .main-logo {
   height: 100px;
@@ -143,26 +141,26 @@ header .main-menu .item:hover .item__contents {
 
 header .main-menu .item .item__contents .contents__menu {
   background-color: #614032;
-  opacity: .9;
+  opacity: 0.9;
 }
-header .main-menu .item .item__contents .contents__menu >ul{
+header .main-menu .item .item__contents .contents__menu > ul {
   display: flex;
   padding: 20px 0;
 }
-header .main-menu .item .item__contents .contents__menu >ul:first-child {
+header .main-menu .item .item__contents .contents__menu > ul:first-child {
   padding-left: 120px;
 }
 
-header .main-menu .item .item__contents .contents__menu >ul >li {
+header .main-menu .item .item__contents .contents__menu > ul > li {
   width: 200px;
 }
-header .main-menu .item .item__contents .contents__menu >ul >li h4 {
+header .main-menu .item .item__contents .contents__menu > ul > li h4 {
   padding: 3px 0 12px 0;
   font-size: 1rem;
   font-weight: 500;
   color: #fff;
 }
-header .main-menu .item .item__contents .contents__menu >ul >li ul li {
+header .main-menu .item .item__contents .contents__menu > ul > li ul li {
   padding: 3px 0;
   font-size: 12px;
   color: rgb(224, 224, 224);
@@ -177,7 +175,6 @@ header .main-menu .item .item__contents .contents__menu >ul >li ul li {
 .visual .inner {
   height: 646px;
 }
-
 
 /* title : ENJOY~3 */
 .visual .title img {
@@ -197,7 +194,6 @@ header .main-menu .item .item__contents .contents__menu >ul >li ul li {
   left: 173px;
 }
 
-
 .visual .girl.image {
   position: absolute;
   max-width: 80%;
@@ -214,5 +210,3 @@ header .main-menu .item .item__contents .contents__menu >ul >li ul li {
 .visual .fade-in {
   opacity: 0;
 }
-
-
