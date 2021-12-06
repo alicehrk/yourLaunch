@@ -124,6 +124,7 @@ header .main-menu .item .item__name {
 
 .main-container .btn-container {
   display: flex;
+  margin-top: 10px;
 }
 .main-container .blank-container {
   width: 20px;
