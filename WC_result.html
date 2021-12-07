@@ -1,61 +1,72 @@
 <!DOCTYPE html>
 <html lang="ko">
 
-<head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Your Lunch</title>
+    <head>
+        <meta charset="UTF-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>Your Lunch</title>
 
-    <link rel="icon" href="./favicon.png" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+        <link rel="icon" href="./favicon.png"/>
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css"/>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link
+            rel="preconnect"
+            href="https://fonts.gstatic.com"
+            crossorigin="crossorigin">
+        <link
+            href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;800&display=swap"
+            rel="stylesheet">
+        <link
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/icon?family=Material+Icons"/>
 
-    <script defer src="./js/favor.js"></script>
-    <link rel="stylesheet" href="./css/WC_result.css"/>
-</head>
+        <script defer="defer" src="./js/favor.js"></script>
+        <link rel="stylesheet" href="./css/WC_result.css"/>
+    </head>
 
-<body>
-    <header>
-        <div class="inner">
-            <a href="/" class="logo">
-                <img class="main-logo" src="./images/LUNCH-lgoo.png" alt="YOURLUNCH" />
-            </a>
-            <ul class="main-menu">
-                <li class="item">
-                    <div class="item__name">YOUR LUNCH</div>
-                </li>
-            </ul>
-        </div>
+    <body>
+        <header>
+            <div class="inner">
+                <a href="/" class="logo">
+                    <img class="main-logo" src="./images/LUNCH-lgoo.png" alt="YOURLUNCH"/>
+                </a>
+                <ul class="main-menu">
+                    <li class="item">
+                        <div class="item__name">YOUR LUNCH</div>
+                    </li>
+                </ul>
+            </div>
 
-    </header>
-    <main class="main-container">
+        </header>
+        <main class="main-container">
 
-        <div class="title-container">
-            <h3>선택한 식당은!</h3>
-        </div>
-        <div id="restaurantname" class="restaurant-container">
-            <h3></h3>
-        </div>
+            <div class="title-container">
+                <h3>선택한 식당은!</h3>
+            </div>
+            <div id="restaurantname" class="restaurant-container">
+                <h3></h3>
+            </div>
 
-        <div class="map-container">
-            <div id="naverMap"
-                style="margin:0 auto; width: 750px; max-width:100%; height: 550px; background-color: beige; border: 10px"
-                class="map"></div>
-        </div>
-        <div class="btn-container">
-            <a href="./index.html" class="btn btn1 btn--brown">메인 메뉴로</a>
-            <div class="blank-container"></div>
-        </div>
-        <script src="https://openapi.map.naver.com/openapi/v3/maps.js?ncpClientId=23esz6pool"></script>
-        <script type="text/javascript"
-            src="https://openapi.map.naver.com/openapi/v3/maps.js?clientId=23esz6pool&submodules=geocoder"></script>
-
-    </main>
-</body>
+            <div class="map-container">
+                <div
+                    id="naverMap"
+                    style="margin:0 auto; width: 750px; max-width:100%; height: 550px; background-color: beige; border: 10px"
+                    class="map"></div>
+            </div>
+            <div class="btn-container">
+                <a href="./index.html" class="btn btn1 btn--brown">메인 메뉴로</a>
+                <div class="blank-container"></div>
+            </div>
+            <script
+                src="https://openapi.map.naver.com/openapi/v3/maps.js?ncpClientId=23esz6pool"></script>
+            <script
+                type="text/javascript"
+                src="https://openapi.map.naver.com/openapi/v3/maps.js?clientId=23esz6pool&submodules=geocoder"></script>
+        </main>
+    </body>
 
 </html>
 
@@ -68,13 +79,13 @@
     request.open('GET', requestURL);
     request.responseType = 'json';
     request.send();
+    var restName = localStorage.getItem("result");
+    
 
     request.onload = function () {
         var matzip = request.response;
 
-        var restName = localStorage.getItem("result");
-
-        for (var i = 0; i<matzip['members'].length; i++) {
+        for (var i = 0; i < matzip['members'].length; i++) {
             if (matzip['members'][i]['name'] == restName) {
                 FinalAddress = matzip['members'][i]['address'];
                 index = i;
@@ -131,15 +142,11 @@
 
             });
 
-
-
         const restaurantName = document.querySelector("#restaurantname");
 
         restaurantName.innerText = matzip['members'][index]['name'];
 
-
-        localStorage.setItem("num", 1);
-
-
     }
+    
 </script>
+<script src = "./local.php?after" ></script>

@@ -19,7 +19,8 @@ request.open('GET', requestURL);
 request.responseType = 'json';
 request.send();
 
-document.querySelector("#mainMenuBtn").classList.add("hidden");
+document.querySelector("#location").classList.add("hidden");
+document.querySelector("#mainmenu").classList.add("hidden");
 
 request.onload = function () {
     var matzip = request.response;
@@ -93,7 +94,8 @@ request.onload = function () {
             Btn1Img.src = `./images/${result[0]}.jpg`
             Btn1.appendChild(Btn1Img);
             Btn2.classList.add('hidden');
-            document.querySelector("#mainMenuBtn").classList.remove("hidden");
+            document.querySelector("#location").classList.remove("hidden");
+            document.querySelector("#mainmenu").classList.remove("hidden");
         }
 
         viewround();
@@ -108,10 +110,10 @@ request.onload = function () {
         } else if ((count8 == 8) && (count4 == 4) && (count2 < 2)) {
             roundTitle.innerHTML = `음식 이상형 월드컵! 결승 (${count2 / 2}/1)`;
         } else if ((count8 == 8) && (count4 == 4) && (count2 == 2)) {
-            roundTitle.innerHTML = `음식 이상형 월드컵! 최종 결과`;
+            roundTitle.innerHTML = `최종 결과! ${result[0]}`;
+            document.cookie = `name = ${result[0]}`;
         }
     }
     Btn1.addEventListener("click", handleClick);
     Btn2.addEventListener("click", handleClick);
-
 }
