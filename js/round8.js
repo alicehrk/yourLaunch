@@ -94,8 +94,10 @@ request.onload = function () {
             Btn1Img.src = `./images/${result[0]}.jpg`
             Btn1.appendChild(Btn1Img);
             Btn2.classList.add('hidden');
+            Btn1.classList.add("result");
             document.querySelector("#location").classList.remove("hidden");
             document.querySelector("#mainmenu").classList.remove("hidden");
+            document.querySelector("#blank").classList.add("hidden");
         }
 
         viewround();

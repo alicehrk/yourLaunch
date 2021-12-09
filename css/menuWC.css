@@ -95,8 +95,8 @@ header .main-menu .item .item__name {
 .main-container .title-container {
   font-size: 60px;
   font-family: "Jua", sans-serif;
-  margin-top: 80px;
-  margin-bottom: 45px;
+  margin-top: 70px;
+  margin-bottom: 20px;
   padding-bottom: 2px;
   border-bottom: 5px solid #614032;
 }
@@ -107,34 +107,38 @@ header .main-menu .item .item__name {
 }
 
 .main-container .option-container .first-container img {
-  width: 600px;
-  height: 600px;
+  width: 500px;
+  height: 500px;
+  border-radius: 20px;
 }
 .main-container .option-container .first-container img:hover {
-  width: 600px;
-  height: 600px;
-  background-color: #f6f5f0;
-  box-sizing: border-box;
-  border: 7px inset #614032;
-  border-radius: 20px;
-  transition: 2;
+  width: 500px;
+  height: 500px;
+  transform: scale(1.1,1.1);
+  transition: transform.4s;
 }
 
 .main-container .option-container .blank {
-  width: 20px;
+  width: 40px;
 }
 
 .main-container .option-container .second-container img {
-  width: 600px;
-  height: 600px;
+  width: 500px;
+  height: 500px;
+  border-radius: 20px;
 }
 .main-container .option-container .second-container img:hover {
-  width: 600px;
-  height: 600px;
-  background-color: #f6f5f0;
-  box-sizing: border-box;
-  border: 7px inset #614032;
-  border-radius: 20px;
+  width: 500px;
+  height: 500px;
+  transform: scale(1.1,1.1);
+  transition: transform.2s;
+}
+.main-container .margin-container {
+  margin-top: 25px;
+}
+
+.main-container .btn-container .blank-container {
+  width: 20px;
 }
 
 .hidden {
