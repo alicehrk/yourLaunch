@@ -109,6 +109,7 @@ request.onload = function () {
             Btn2.classList.add('hidden');
             document.querySelector("#location").classList.remove("hidden");
             document.querySelector("#mainmenu").classList.remove("hidden");
+            document.querySelector("#blank").classList.add("hidden");
             document.cookie = `name = ${result[0]}`;
         }
 
@@ -118,13 +119,13 @@ request.onload = function () {
     /* 화면에 현재 라운드 수와 남은 수 표시 */
     function viewround() {
         if ((count16 < 16)) {
-            roundTitle.innerHTML = `식당 이상형 월드컵! 16강 (${count16 / 2 + 1}/8)`;
+            roundTitle.innerHTML = `식당 이상형 월드컵! 16강 (${count16 / 2 + 1 }/8)`;
         } else if ((count16 == 16) && (count8 < 8)) {
-            roundTitle.innerHTML = `식당 이상형 월드컵! 8강 (${count8 / 2 + 1}/4)`;
+            roundTitle.innerHTML = `식당 이상형 월드컵! 8강 (${count8 / 2 + 1 }/4)`;
         } else if ((count16 == 16) && (count8 == 8) && (count4 < 4)) {
-            roundTitle.innerHTML = `식당 이상형 월드컵! 4강 (${count4 / 2 + 1}/2)`;
+            roundTitle.innerHTML = `식당 이상형 월드컵! 4강 (${count4 / 2 + 1 }/2)`;
         } else if ((count16 == 16) && (count8 == 8) && (count4 == 4) && (count2 < 2)) {
-            roundTitle.innerHTML = `식당 이상형 월드컵! 결승 (${count2 / 2 + 1}/1)`;
+            roundTitle.innerHTML = `식당 이상형 월드컵! 결승 (${count2 / 2 + 1 }/1)`;
         } else if ((count16 == 16) && (count8 == 8) && (count4 == 4) && (count2 == 2)) {
             roundTitle.innerHTML = `최종 결과! ${result[0]}`;
             document.cookie = `name = ${result[0]}`;

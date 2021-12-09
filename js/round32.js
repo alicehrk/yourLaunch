@@ -122,7 +122,7 @@ request.onload = function () {
             Btn2.classList.add('hidden');
             document.querySelector("#location").classList.remove("hidden");
             document.querySelector("#mainmenu").classList.remove("hidden");
-
+            document.querySelector("#blank").classList.add("hidden");
             document.cookie = `name = ${result[0]}`;
         }
 
