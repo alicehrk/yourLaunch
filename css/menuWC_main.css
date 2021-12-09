@@ -70,7 +70,6 @@ header .main-menu .item .item__name {
 }
 .main-container .button-container {
   display: flex;
-  margin-left: 100px;
 }
 
 .main-container .button-container .round_8 img:hover {

@@ -68,21 +68,21 @@ request.onload = function () {
 
     /* 이미지 추가, innerText 추가 */
     function drawBtn() {
-        if ((count8 < 8)) { //16강 끝나고 8강 진행 중
+        if ((count8 < 8)) { 
             Btn1.innerText = arr8[count8];
             Btn2.innerText = arr8[count8 + 1];
             Btn1Img.src = `./images/${arr8[count8]}.jpg`;
             Btn2Img.src = `./images/${arr8[count8 + 1]}.jpg`;
             Btn1.appendChild(Btn1Img);
             Btn2.appendChild(Btn2Img);
-        } else if ((count8 == 8) && (count4 < 4)) { //8강 끝나고 4강 진행 중
+        } else if ((count8 == 8) && (count4 < 4)) {
             Btn1.innerText = arr4[count4];
             Btn2.innerText = arr4[count4 + 1];
             Btn1Img.src = `./images/${arr4[count4]}.jpg`;
             Btn2Img.src = `./images/${arr4[count4 + 1]}.jpg`;
             Btn1.appendChild(Btn1Img);
             Btn2.appendChild(Btn2Img);
-        } else if ((count8 == 8) && (count4 == 4) && (count2 < 2)) { //4강 끝나고 결승 진행 중
+        } else if ((count8 == 8) && (count4 == 4) && (count2 < 2)) { 
             Btn1.innerText = arr2[count2];
             Btn2.innerText = arr2[count2 + 1];
             Btn1Img.src = `./images/${arr2[count2]}.jpg`;
@@ -104,11 +104,11 @@ request.onload = function () {
     /* 화면에 현재 라운드 수와 남은 수 표시 */
     function viewround() {
         if ((count8 < 8)) {
-            roundTitle.innerHTML = `음식 이상형 월드컵! 8강 (${count8 / 2}/4)`;
+            roundTitle.innerHTML = `식당 이상형 월드컵! 8강 (${count8 / 2 + 1}/4)`;
         } else if ((count8 == 8) && (count4 < 4)) {
-            roundTitle.innerHTML = `음식 이상형 월드컵! 4강 (${count4 / 2}/2)`;
+            roundTitle.innerHTML = `식당 이상형 월드컵! 4강 (${count4 / 2 + 1}/2)`;
         } else if ((count8 == 8) && (count4 == 4) && (count2 < 2)) {
-            roundTitle.innerHTML = `음식 이상형 월드컵! 결승 (${count2 / 2}/1)`;
+            roundTitle.innerHTML = `식당 이상형 월드컵! 결승 (${count2 / 2 + 1}/1)`;
         } else if ((count8 == 8) && (count4 == 4) && (count2 == 2)) {
             roundTitle.innerHTML = `최종 결과! ${result[0]}`;
             document.cookie = `name = ${result[0]}`;
